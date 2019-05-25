@@ -80,6 +80,43 @@ code {
   }
 }
 
+.AlignLeft {
+  margin-right: auto;
+}
+
+.AlignRight {
+  margin-left: auto;
+}
+
+.ImageButton {
+  width: 120px;
+  height: 20px;
+  font-size: 1rem;
+}
+
+.QuickLinkImage {
+  width: 600px;
+  height: auto;
+}
+
+.ImageTitle {
+  text-transform: uppercase;
+  font-family: proxima-nova;
+  letter-spacing: 0.15em;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ImageBody {
+  font-family: adobe-garamond-pro;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
 .main-page-wrapper {
   height: auto;
   width: auto;
@@ -175,4 +212,21 @@ code {
   margin-right: auto;
   line-height: 1.6em;
   color: #676565;
+}
+
+.home-link-content {
+  padding: 10px 50px;
+}
+
+.single-image-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.image-text-block {
+  position: absolute;
+  top: 10%;
+  width: 80%;
+  text-align: center;
+  color: $white;
 }
