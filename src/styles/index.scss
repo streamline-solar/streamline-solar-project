@@ -22,7 +22,45 @@ code {
   align-items: center;
 }
 
-.main-body-wrapper {
+.FlexRowCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.FlexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LargeText {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px 0 0 0;
+}
+
+.Button {
+  height: 30px;
+  width: 180px;
+  background-color: $white;
+  transition: background-color 0.2s;
+  border: 3px solid $white;
+  border-radius: 300px;
+  text-decoration: none;
+  color: $black;
+  font-size: 1.4rem;
+  padding: 20px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(49, 49, 49);
+    color: $white;
+  }
+}
+
+.main-page-wrapper {
   height: auto;
   width: auto;
   overflow: hidden;
@@ -34,7 +72,8 @@ code {
 
 .header-content {
   padding: 30px 30px 0;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .header-logo {
@@ -61,9 +100,37 @@ code {
 .header-nav-item {
   text-decoration: none;
   margin: 0px 15px;
-  color: $black;
+  color: $white2;
+}
+
+.header-nav-item:hover {
+  color: $white;
 }
 
 .navigation-wrapper {
   display: inline-flex;
+  margin-top: 30px;
+}
+
+.top-page-wrapper {
+  background: url("./../images/streamline-home-image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  opacity: 0.9;
+  background-color: transparent;
+}
+
+.vision-wrapper {
+  padding: 90px 50px;
+}
+
+.vision-content-text {
+  color: $white;
+  text-align: center;
+}
+
+.button-wrapper {
+  padding: 40px 0;
 }
