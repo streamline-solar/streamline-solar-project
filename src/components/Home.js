@@ -30,30 +30,51 @@ class Home extends Component {
               </div>
             </div>
           </header>
-          <div className="main-body-wrapper">
-            <main className="body-content">
-              <section id="streamline-vision">
-                <div className="vision-wrapper FlexRowCenter">
-                  <div className="vision-content">
-                    <div className="vision-content-text">
-                      <h1 className="MidText"> 
-                        <em>Streamline Solar Stops</em>
-                      </h1>
-                      <h2 className="LargeText">
-                        <strong>Sustainable Bus Stops For a Renewable World</strong>
-                      </h2>
-                    </div>
-                    <div className="button-wrapper FlexRowCenter">
-                      <div className="button-content">
-                        <a href="/" className="Button FlexCenter">Support Us</a>
-                      </div>
-                    </div>
+          <section id="streamline-vision">
+            <div className="vision-wrapper FlexRowCenter">
+              <div className="vision-content">
+                <div className="vision-content-text">
+                  <h1 className="MidText"> 
+                    <em>Streamline Solar Stops</em>
+                  </h1>
+                  <h2 className="LargerText">
+                    <strong>Sustainable Bus Stops For a Renewable World</strong>
+                  </h2>
+                </div>
+                <div className="button-wrapper FlexRowCenter">
+                  <div className="button-content">
+                    <a href="/" className="Button FlexCenter">Support Us</a>
                   </div>
                 </div>
-              </section>
-              <section className="hey"></section>
-            </main>
-          </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="main-body-wrapper">
+          <main className="body-content">
+            <section className="streamline-main-page">
+              <div className="index-page-wrapper">
+                <div className="inner-index-wrapper">
+                  <div className="seperator-block">
+                    <hr className="seperator"></hr>
+                  </div>
+                  <div className="inner-text-block">
+                    <div className="top-inner-text-block JustSomePadding">
+                      <h1 className="LargeText">MSU Students Are Giving Back to Their Local Community</h1>
+                    </div>
+                    <div className="bottom-inner-text-block JustSomePadding">
+                      <p className="SmallText">
+                        The Streamline Solar Stops team is using the American Institute of Chemical Engineering chapter at Montana State University as a platform to apply student interests to the needs of our local community. Our goal is to design and implement sustainable, solar powered bus stops, which will be capable of providing light and heat during the harsh Montana winters.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="seperator-block">
+                    <hr className="seperator"></hr>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
         </div>
       </div>
     );

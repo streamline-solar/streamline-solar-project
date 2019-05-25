@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: $white;
 }
 
@@ -33,12 +33,32 @@ code {
   justify-content: center;
 }
 
-.LargeText {
+.JustSomePadding {
+  padding: 10px;
+}
+
+.LargerText {
   font-size: 3.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 10px 0 0 0;
+}
+
+.LargeText {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  font-family: adobe-garamond-pro;
+}
+
+.SmallText {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  font-family: adobe-garamond-pro;
 }
 
 .Button {
@@ -133,4 +153,26 @@ code {
 
 .button-wrapper {
   padding: 40px 0;
+}
+
+.seperator-block {
+  padding: 15px 0;
+}
+
+.index-page-wrapper {
+  padding: 90px 50px;
+}
+
+.inner-text-block {
+  text-align: center;
+  padding: 20px;
+}
+
+.bottom-inner-text-block {
+  width: 60%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6em;
+  color: #676565;
 }
