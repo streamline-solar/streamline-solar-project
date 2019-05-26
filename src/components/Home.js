@@ -6,6 +6,7 @@ import ProgressImage from "./../images/home-progress-image.jpeg";
 import PartnerImage from "./../images/home-partners-image.jpg";
 import ContactImage from "./../images/home-contact-us-image.jpeg";
 import PhotosImage from "./../images/home-images-image.jpg";
+import AlChEBanner from "./../images/AIChEBanner.png";
 //import { Link } from 'react-router-dom';
 
 class Home extends Component {
@@ -55,6 +56,7 @@ class Home extends Component {
             </div>
           </section>
         </div>
+
         <div className="main-body-wrapper">
           <main className="body-content">
             <section className="streamline-main-page">
@@ -179,8 +181,55 @@ class Home extends Component {
                 </div>
               </div>
             </section>
+
+            <div className="seperator-block">
+              <hr className="seperator"></hr>
+            </div>
+
+            <section className="ALCHE-section">
+              <div className="alche-content-wrapper">
+                <div className="inner-alche-content">
+                  <div className="alche-logo-wrapper JustSomePadding FlexCenter">
+                    <div className="alche-banner">
+                      <img className="alche-logo-banner" src={AlChEBanner} alt="AlChE Banner"></img>
+                    </div>
+                  </div>
+                  <div className="alche-text-wrapper JustSomePadding">
+                    <div className="alche-text-content AlignTextCenter">
+                      <p className="alche-text">
+                      “The American Institute of Chemical Engineers is a world wide professional organization that facilitates the sharing of research, student competitions, varied conferences, global networking, and other learning opportunities.” 
+                      </p>
+                      <p className="alche-text">
+                        -AIChE
+                      </p>
+                      <p className="alche-text">
+                      Our chapter, at Montana State University, focuses on working with our community to spread information about STEM professions and the possibilities of chemical engineering.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="seperator-block">
+                <hr className="seperator"></hr>
+              </div>
+            </section>
+
           </main>
         </div>
+        <footer className="Footer">
+          <div className="inner-footer FlexCenter">
+            <div className="promotional-content-wrapper">
+              <div className="promotional-content">
+              
+              </div>
+            </div>
+            <div className="my-shameless-promo-wrapper">
+              <div className="my-shameless-promo">
+                <h6>Created By: Jesse Dahl</h6>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }

@@ -33,6 +33,10 @@ code {
   justify-content: center;
 }
 
+.AlignTextCenter {
+  text-align: center;
+}
+
 .JustSomePadding {
   padding: 10px;
 }
@@ -196,7 +200,7 @@ code {
   padding: 15px 0;
 }
 
-.index-page-wrapper {
+.main-body-wrapper {
   padding: 90px 50px;
 }
 
@@ -229,4 +233,42 @@ code {
   width: 80%;
   text-align: center;
   color: $white;
+}
+
+.alche-logo-banner {
+  width: 650px;
+}
+
+.alche-text-wrapper {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.alche-text {
+  color: #676565;
+  font-family: adobe-garamond-pro;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+.Footer {
+  background-color: #292828;
+}
+
+.inner-footer {
+  padding: 100px 50px;
+}
+
+.my-shameless-promo {
+  color: $white2;
+  font-family: adobe-garamond-pro;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  margin-top: 0;
 }
