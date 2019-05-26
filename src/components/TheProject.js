@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./../styles/index.scss";
+import "./../styles/project.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 
 class Project extends Component {
@@ -33,22 +34,47 @@ class Project extends Component {
             <div className="vision-wrapper FlexRowCenter">
               <div className="vision-content">
                 <div className="vision-content-text">
-                  <h1 className="MidText"> 
-                    <em>Streamline Solar Stops</em>
-                  </h1>
                   <h2 className="LargerText">
-                    <strong>Sustainable Bus Stops For a Renewable World</strong>
+                    <strong>The Project</strong>
                   </h2>
-                </div>
-                <div className="button-wrapper FlexRowCenter">
-                  <div className="button-content">
-                    <a href="/" className="Button FlexCenter">Support Us</a>
-                  </div>
                 </div>
               </div>
             </div>
           </section>
         </div>
+
+        <div className="main-body-wrapper">
+        <main className="body-content">
+          <section className="streamline-main-page">
+            <div className="index-page-wrapper">
+              <div className="inner-index-wrapper">
+                <div className="seperator-block">
+                  <hr className="seperator"></hr>
+                </div>
+                <div className="inner-text-block">
+                  <div className="top-inner-text-block JustSomePadding">
+                    <h1 className="LargeText">Streamline Solar Stops</h1>
+                    <h2 className="LargeText">Collaboration is our mission. Sustainability is our goal.</h2>
+                  </div>
+                  <div className="bottom-inner-text-block JustSomePadding">
+                    <p className="SmallText">
+                      Our mission is to create a multidisciplinary team of undergraduate students who will apply their interests and skills in order to give back to the Bozeman community. This project will encourage collaboration between diverse students and bridge the gap between the student body and their local area. Over the course of the next few semesters, this group will design and implement sustainable, solar powered bus stops capable of providing light and electric heat during the harsh Montana winters. The Streamline Solar Stops project will employ the efforts of our students, the participation of the community, the collaboration of businesses, and the charity of donors to provide a better, safer, and more sustainable Bozeman. 
+                    </p>
+                  </div>
+                </div>
+                <div className="seperator-block">
+                  <hr className="seperator"></hr>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div className="seperator-block">
+            <hr className="seperator"></hr>
+          </div>
+
+        </main>
+      </div>
 
       </div>
     );

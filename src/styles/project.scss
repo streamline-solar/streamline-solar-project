@@ -1,0 +1,18 @@
+@import "colors";
+
+.top-page-wrapper {
+  background: url("./../images/project-home-image.jpg") !important;
+  background-position: center !important;
+  width: auto;
+  height: -webkit-fill-available !important;
+  opacity: 0.9;
+  background-color: transparent;
+  background-size: cover !important;
+}
+
+
+.bottom-inner-text-block {
+  width: auto !important;
+  line-height: 2em !important;
+  text-align: left !important;
+}
