@@ -25,7 +25,7 @@ class Home extends Component {
                 <nav className="header-nav">
                   <div className="header-nav-content">
                     <a href="/" className="header-nav-item">Home</a>
-                    <a href="/" className="header-nav-item">The Project</a>
+                    <a href="/the-project" className="header-nav-item">The Project</a>
                     <a href="/" className="header-nav-item">Our Progress</a>
                     <a href="/" className="header-nav-item">Our Partners</a>
                     <a href="/" className="header-nav-item">Photos</a>
