@@ -136,7 +136,12 @@ class Project extends Component {
           </div>
           <div className="my-shameless-promo-wrapper">
             <div className="my-shameless-promo">
-              <h6>Created By: Jesse Dahl</h6>
+              <div className="created-by-wrapper">
+                <h6>Created By:</h6>
+              </div>
+              <div className="promo-link-wrapper">
+                <a href="https://www.jesse-dahl.com" target="_blank" id="shameless-promo-link">Jesse Dahl</a>
+              </div>
             </div>
           </div>
         </div>
