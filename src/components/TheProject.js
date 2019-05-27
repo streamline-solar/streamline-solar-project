@@ -10,6 +10,7 @@ class Project extends Component {
     return (
       <div className="main-page-wrapper">
         <div className="project-top-page-wrapper">
+          <div className="project-top-page-background">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -43,6 +44,7 @@ class Project extends Component {
               </div>
             </div>
           </section>
+          </div>
         </div>
 
         <div className="main-body-wrapper">

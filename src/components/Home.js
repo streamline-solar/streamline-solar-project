@@ -14,6 +14,7 @@ class Home extends Component {
     return (
       <div className="main-page-wrapper">
         <div className="home-top-page-wrapper">
+          <div className="home-top-page-background">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -55,6 +56,7 @@ class Home extends Component {
               </div>
             </div>
           </section>
+          </div>
         </div>
 
         <div className="main-body-wrapper">

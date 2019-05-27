@@ -1,13 +1,15 @@
 @import "colors";
 
-.project-top-page-wrapper {
-  background: url("./../images/project-home-image.jpg") !important;
-  background-position: center !important;
-  width: auto;
-  height: -webkit-fill-available !important;
+.project-top-page-background {
+  background: url("./../images/project-home-image.jpg");
+  background-position: center;
+  width: 100%;
+  height: -webkit-fill-available;
   opacity: 0.9;
   background-color: transparent;
-  background-size: cover !important;
+  background-size: cover;
+  //position: fixed;
+  background-attachment: fixed;
 }
 
 

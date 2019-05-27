@@ -178,14 +178,15 @@ code {
   margin-top: 30px;
 }
 
-.home-top-page-wrapper {
-  background: url("./../images/streamline-home-image.jpg") !important;
-  background-size: cover !important;
+.home-top-page-background {
+  background: url("./../images/streamline-home-image.jpg");
+  background-size: cover;
   background-position: center;
   width: auto;
   height: auto;
   opacity: 0.9;
   background-color: transparent;
+  background-attachment: fixed;
 }
 
 .vision-wrapper {
