@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "./../styles/index.scss";
 import Logo from "./../images/streamline-solar-logo.png";
-import ProjectImage from "./../images/home-project-image.jpeg";
-import ProgressImage from "./../images/home-progress-image.jpeg";
-import PartnerImage from "./../images/home-partners-image.jpg";
-import ContactImage from "./../images/home-contact-us-image.jpeg";
-import PhotosImage from "./../images/home-images-image.jpg";
+import ProjectImage from "./../images/home-project-image-effects.jpg";
+import ProgressImage from "./../images/home-progress-image-effects.jpg";
+import PartnerImage from "./../images/home-partners-image-effects.jpg";
+import ContactImage from "./../images/home-contact-us-image-effects.jpg";
+import PhotosImage from "./../images/home-images-image-effects.jpg";
 import AlChEBanner from "./../images/AIChEBanner.png";
 //import { Link } from 'react-router-dom';
 
