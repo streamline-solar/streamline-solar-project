@@ -13,7 +13,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
-        <div className="top-page-wrapper">
+        <div className="home-top-page-wrapper">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -93,7 +93,7 @@ class Home extends Component {
                           </div>
                           <div className="button-wrapper FlexRowCenter">
                             <div className="button-content">
-                              <a href="/" className="Button ImageButton FlexCenter">Learn More</a>
+                              <a href="/the-project" className="Button ImageButton FlexCenter">Learn More</a>
                             </div>
                           </div>
                         </div>

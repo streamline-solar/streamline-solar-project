@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import "./../styles/index.scss";
 import "./../styles/project.scss";
 import Logo from "./../images/streamline-solar-logo.png";
+import OurStory from "./../images/project-stop.jpeg";
+import OurStudents from "./../images/project-our-students.jpeg";
 
 class Project extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
-        <div className="top-page-wrapper">
+        <div className="project-top-page-wrapper">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -62,9 +64,55 @@ class Project extends Component {
                     </p>
                   </div>
                 </div>
+
                 <div className="seperator-block">
                   <hr className="seperator"></hr>
                 </div>
+
+                <div className="body-element-wrapper InlineBlock">
+                  <div className="body-element-content FlexColCenter">
+                    <div className="left-text-wrapper">
+                      <div className="left-text-content">
+                        <div className="left-text-title">
+                          <h1>Our Story</h1>
+                        </div>
+                        <div className="left-text-body">
+                          <p className="SmallText">Students at Montana State University saw a lack of campus engagement in the local community and created the Streamline Solar Stops project as a way to give back.  The Streamline is an incredible service that serves both the students of MSU, and the populations of Bozeman, Belgrade, Livingston, and Four Corners. What better way to give back to our community than to improve a service that is such a cornerstone of the community? With hard work and collaboration, we believe that our student body can make a difference in Bozeman.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="right-image-wrapper">
+                      <div className="right-image-image">
+                        <img className="project-body-image" src={OurStory} alt="just an image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="seperator-block">
+                 <hr className="seperator"></hr>
+                </div>
+
+                <div className="body-element-wrapper InlineBlock">
+                  <div className="body-element-content FlexColCenter">
+                    <div className="left-text-wrapper">
+                      <div className="left-text-content">
+                        <div className="left-text-title">
+                          <h1>Our Story</h1>
+                        </div>
+                        <div className="left-text-body">
+                          <p className="SmallText">Students at Montana State University saw a lack of campus engagement in the local community and created the Streamline Solar Stops project as a way to give back.  The Streamline is an incredible service that serves both the students of MSU, and the populations of Bozeman, Belgrade, Livingston, and Four Corners. What better way to give back to our community than to improve a service that is such a cornerstone of the community? With hard work and collaboration, we believe that our student body can make a difference in Bozeman.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="right-image-wrapper">
+                      <div className="right-image-image">
+                        <img className="project-body-image" src={OurStudents} alt="just an image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </section>
@@ -75,6 +123,21 @@ class Project extends Component {
 
         </main>
       </div>
+
+      <footer className="Footer">
+        <div className="inner-footer FlexCenter">
+          <div className="promotional-content-wrapper">
+            <div className="promotional-content">
+            
+            </div>
+          </div>
+          <div className="my-shameless-promo-wrapper">
+            <div className="my-shameless-promo">
+              <h6>Created By: Jesse Dahl</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
 
       </div>
     );

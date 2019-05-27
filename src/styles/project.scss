@@ -1,6 +1,6 @@
 @import "colors";
 
-.top-page-wrapper {
+.project-top-page-wrapper {
   background: url("./../images/project-home-image.jpg") !important;
   background-position: center !important;
   width: auto;
@@ -15,4 +15,30 @@
   width: auto !important;
   line-height: 2em !important;
   text-align: left !important;
+}
+
+.left-text-wrapper {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.project-body-image {
+  width: 100%;
+}
+
+.left-text-title {
+  font-family: proxima-nova !important;
+  color: #424242;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.57px;
+}
+
+.left-text-body {
+  line-height: 28.8px;
+  color: #676565;
+  font-family: adobe-garamond-pro;
 }

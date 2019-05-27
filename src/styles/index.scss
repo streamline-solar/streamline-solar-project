@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+.InlineBlock {
+  display: inline-block;
+}
+
 .FlexColCenter {
   display: flex;
   align-items: center;
@@ -174,9 +178,9 @@ code {
   margin-top: 30px;
 }
 
-.top-page-wrapper {
-  background: url("./../images/streamline-home-image.jpg");
-  background-size: cover;
+.home-top-page-wrapper {
+  background: url("./../images/streamline-home-image.jpg") !important;
+  background-size: cover !important;
   background-position: center;
   width: auto;
   height: auto;
