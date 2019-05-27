@@ -12,6 +12,9 @@
   background-attachment: fixed;
 }
 
+.body-element-wrapper {
+  padding: 20px;
+}
 
 .bottom-inner-text-block {
   width: auto !important;
@@ -22,6 +25,10 @@
 .left-text-wrapper {
   width: 100%;
   float: left;
+  padding: 20px;
+}
+
+.image-wrapper {
   padding: 20px;
 }
 

@@ -83,8 +83,8 @@ class Project extends Component {
                         </div>
                       </div>
                     </div>
-                    <div className="right-image-wrapper">
-                      <div className="right-image-image">
+                    <div className="image-wrapper">
+                      <div className="image-image">
                         <img className="project-body-image" src={OurStory} alt="just an image" />
                       </div>
                     </div>
@@ -97,6 +97,11 @@ class Project extends Component {
 
                 <div className="body-element-wrapper InlineBlock">
                   <div className="body-element-content FlexColCenter">
+                    <div className="image-wrapper">
+                      <div className="image-image">
+                        <img className="project-body-image" src={OurStudents} alt="just an image" />
+                       </div>
+                    </div>
                     <div className="left-text-wrapper">
                       <div className="left-text-content">
                         <div className="left-text-title">
@@ -107,11 +112,7 @@ class Project extends Component {
                         </div>
                       </div>
                     </div>
-                    <div className="right-image-wrapper">
-                      <div className="right-image-image">
-                        <img className="project-body-image" src={OurStudents} alt="just an image" />
-                      </div>
-                    </div>
+
                   </div>
                 </div>
 
