@@ -1,0 +1,17 @@
+@import "colors";
+
+.progress-top-page-background {
+  background: url("./../images/progress-home-image.jpeg");
+  background-position: center;
+  width: 100%;
+  height: -webkit-fill-available;
+  opacity: 0.9;
+  background-color: transparent;
+  background-size: cover;
+  //position: fixed;
+  background-attachment: fixed;
+}
+
+.bottom-inner-text-block {
+  text-align: center !important;
+}
