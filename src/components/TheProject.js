@@ -100,10 +100,10 @@ class Project extends Component {
                     <div className="left-text-wrapper">
                       <div className="left-text-content">
                         <div className="left-text-title">
-                          <h1>Our Story</h1>
+                          <h1>Our Students</h1>
                         </div>
                         <div className="left-text-body">
-                          <p className="SmallText">Students at Montana State University saw a lack of campus engagement in the local community and created the Streamline Solar Stops project as a way to give back.  The Streamline is an incredible service that serves both the students of MSU, and the populations of Bozeman, Belgrade, Livingston, and Four Corners. What better way to give back to our community than to improve a service that is such a cornerstone of the community? With hard work and collaboration, we believe that our student body can make a difference in Bozeman.</p>
+                          <p className="SmallText">Not only does the Streamline Solar Stops project connect students to the community, but it connects us to each other. We are striving to encourage extensive interdisciplinary cooperation between all corners of the university. Our project is entirely student run; from communication and outreach, to energy technology and design, our students have the skills and drive to do it all. Our team is made up of students from departments all across campus including Engineering, Arts and Architecture, and Business.</p>
                         </div>
                       </div>
                     </div>
