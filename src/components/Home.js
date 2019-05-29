@@ -67,6 +67,7 @@ class Home extends Component {
                   <div className="seperator-block">
                     <hr className="seperator"></hr>
                   </div>
+                  
                   <div className="inner-text-block">
                     <div className="top-inner-text-block JustSomePadding">
                       <h1 className="LargeText">MSU Students Are Giving Back to Their Local Community</h1>
