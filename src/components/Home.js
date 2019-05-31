@@ -63,7 +63,7 @@ class Home extends Component {
           <main className="body-content">
             <section className="streamline-main-page">
               <div className="index-page-wrapper">
-                <div className="inner-index-wrapper">
+                <div className="inner-index-wrapper hi">
                   <div className="seperator-block">
                     <hr className="seperator"></hr>
                   </div>
