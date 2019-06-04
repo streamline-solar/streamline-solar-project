@@ -74,7 +74,7 @@ class Home extends Component {
                     </div>
                     <div className="bottom-inner-text-block JustSomePadding">
                       <p className="SmallText">
-                        The Streamline Solar Stops team is using the American Institute of Chemical Engineering chapter at Montana State University as a platform to apply student interests to the needs of our local community. Our goal is to design and implement sustainable, solar powered bus stops, which will be capable of providing light and heat during the harsh Montana winters.
+                        The Streamline Solar Stops team is using the American Institute of Chemical Engineering chapter at Montana State University as a platform to apply student interests to the needs of our local community. Our goal is to design and implement sustainable, solar powered bus stops, which will be capable of providing light and heat during the harsh Montana winters
                       </p>
                     </div>
                   </div>
