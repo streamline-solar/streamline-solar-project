@@ -4,6 +4,8 @@ import "./../styles/progress.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 import UniversitySupport from "./../images/progress-support.jpeg";
 import StudentInvolvement from "./../images/progress-student.jpeg";
+import Sustainabilibash from "./../images/sustainabilibash.jpg";
+import ClimateConference from "./../images/climate-conference.png";
 
 class Progress extends Component {
   render() {
@@ -93,6 +95,11 @@ class Progress extends Component {
 
                   <div className="body-element-wrapper InlineBlock">
                     <div className="body-element-content FlexColCenter">
+                      <div className="image-wrapper">
+                        <div className="image-image">
+                          <img className="progress-body-image" src={StudentInvolvement} alt="just an image" />
+                        </div>
+                      </div>
                       <div className="left-text-wrapper">
                         <div className="left-text-content">
                           <div className="left-text-title">
@@ -105,13 +112,70 @@ class Progress extends Component {
                           </div>
                         </div>
                       </div>
-                      <div className="image-wrapper">
-                        <div className="image-image">
-                          <img className="progress-body-image" src={StudentInvolvement} alt="just an image" />
+                    </div>
+                  </div>
+
+                  <div className="seperator-block">
+                    <hr className="seperator"></hr>
+                  </div>
+
+                  <section className="streamline-solar-events">
+                    <div className="main-events-wrapper InlineBlock">
+                      <div className="section-header">
+                        <h1 className="events-header">Events</h1>
+                      </div>
+
+                      <div className="main-events-content FlexColCenter">
+                        <div className="left-text-wrapper">
+                          <div className="left-text-content">
+                            <div className="text-title">
+                              <h1>Sustainabilibash: 04/18/19</h1>
+                            </div>
+                            <div className="left-text-body">
+                              <p className="SmallText">
+                                The Streamline Solar Stops joined other Montana State University organizations in a celebration of Earth Day.
+                              </p>
+                              <p className="SmallText">
+                                A huge thanks to everyone who stopped by and supported us! It was an awesome opportunity to meet more students and people who gained interest in the project. Check out our Instagram or our photos page to see how the event went!
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="image-wrapper">
+                          <div className="image-image">
+                            <img className="progress-body-image" src={Sustainabilibash} alt="just an image" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="main-events-content FlexColCenter">
+                        <div className="image-wrapper">
+                          <div className="image-image">
+                            <img className="progress-body-image" src={ClimateConference} alt="just an image" />
+                          </div>
+                        </div>
+                        <div className="left-text-wrapper">
+                          <div className="left-text-content">
+                            <div className="text-title">
+                              <h1>Climate Conference</h1>
+                            </div>
+                            <div className="left-text-body">
+                              <p className="SmallText">
+                                The Climate Conference, hosted by the MSU chapter of AlChE, is a yearly, open event designed to unite the Montana community in the fight against our changing climate. The Streamline Solar Stops team joined this year's event to share our project.
+                              </p>
+                              <p className="SmallText">
+                                A huge thanks to all of the members who showed interest in our project and signed up for our newsletter! Check out our Instagram or our photos page to see how the event went.
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+
+                    
+
+
+                  </section>
 
                 </div>
               </div>
