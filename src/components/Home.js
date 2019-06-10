@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 import ProjectImage from "./../images/home-project-image-effects.jpg";
@@ -13,6 +14,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
+        <Fade duration='2000'>
         <div className="home-top-page-wrapper">
           <div className="home-top-page-background">
             <header className="header-wrapper">
@@ -58,6 +60,7 @@ class Home extends Component {
             </section>
           </div>
         </div>
+        </Fade>
 
         <div className="main-body-wrapper">
           <main className="body-content">

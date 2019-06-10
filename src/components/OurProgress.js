@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/progress.scss";
 import Logo from "./../images/streamline-solar-logo.png";
@@ -11,6 +12,7 @@ class Progress extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
+        <Fade>
         <div className="progress-top-page-wrapper">
           <div className="progress-top-page-background">
             <header className="header-wrapper">
@@ -48,6 +50,7 @@ class Progress extends Component {
             </section>
           </div>
         </div>
+        </Fade>
 
         <div className="main-body-wrapper">
           <main className="body-content">
