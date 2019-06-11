@@ -93,7 +93,7 @@ class Partners extends Component {
                       <p>
                         “The American Institute of Chemical Engineers is a world wide professional organization that facilitates the sharing of research, student competitions, varied conferences, global networking, and other learning opportunities.”
                       </p>
-                      <p>-AlChE</p>
+                      <p className="partner-sig">-AlChE</p>
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ class Partners extends Component {
                       <p>
                         “Montana State University is as remarkable as its setting. Created as a land-grant institution, it is a welcoming, adventurous community of students, faculty and staff distinguished by its commitment to address the world's greatest challenges. The university energizes individuals to discover and pursue their aspirations.”
                       </p>
-                      <p>-Montana State University</p>
+                      <p className="partner-sig">-Montana State University</p>
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ class Partners extends Component {
                       <p>
                       “Streamline offers fare-free service throughout the Bozeman area to fulfill everyone’s transportation needs. Our routes provide service to and from Bozeman, Belgrade, Four Corners, Livingston and seasonal routes to Bridger Bowl.”
                       </p>
-                      <p>-Streamline</p>
+                      <p className="partner-sig">-Streamline</p>
                     </div>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ class Partners extends Component {
                       <p>
                         “HRDC is a 501(c)3 non-profit Community Action Agency dedicated to building a better community through innovation and leadership. We provide programs and services in the areas of Housing, Food & Nutrition, Child & Youth Development, Senior Empowerment, Community Transportation, Home Heating–Energy–Safety, and Community Development.”
                       </p>
-                      <p>-HRDC</p>
+                      <p className="partner-sig">-HRDC</p>
                     </div>
                   </div>
                 </div>
@@ -156,6 +156,21 @@ class Partners extends Component {
           </section>
         </main>
       </div>
+
+      <footer className="Footer">
+        <div className="inner-footer FlexCenter">
+          <div className="promotional-content-wrapper">
+            <div className="promotional-content">
+            
+            </div>
+          </div>
+          <div className="my-shameless-promo-wrapper">
+            <div className="my-shameless-promo">
+              <h6>Created By: Jesse Dahl</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
 
       </div>
     );
