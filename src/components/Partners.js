@@ -5,6 +5,8 @@ import "./../styles/partners.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 import AlChEBanner from "./../images/AlChE-smaller-banner.png";
 import MSULogo from "./../images/msu-logo.jpg";
+import StreamlineLogo from "./../images/streamline-logo.png";
+import HRDCLogo from "./../images/HRDC-logo.jpg";
 
 class Partners extends Component {
 
@@ -112,7 +114,43 @@ class Partners extends Component {
                   </div>
                 </div>
 
+                <div className="partners-content-row">
+                  <div className="partner-image-wrapper">
+                    <div className="partners-image-content">
+                      <img className="partners-image" src={StreamlineLogo}></img>
+                    </div>
+                  </div>
+                  <div className="partners-info-wrapper">
+                    <div className="partners-info-content">
+                      <p>
+                      “Streamline offers fare-free service throughout the Bozeman area to fulfill everyone’s transportation needs. Our routes provide service to and from Bozeman, Belgrade, Four Corners, Livingston and seasonal routes to Bridger Bowl.”
+                      </p>
+                      <p>-Streamline</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="partners-content-row">
+                  <div className="partner-image-wrapper">
+                    <div className="partners-image-content">
+                      <img className="partners-image" src={HRDCLogo}></img>
+                    </div>
+                  </div>
+                  <div className="partners-info-wrapper">
+                    <div className="partners-info-content">
+                      <p>
+                        “HRDC is a 501(c)3 non-profit Community Action Agency dedicated to building a better community through innovation and leadership. We provide programs and services in the areas of Housing, Food & Nutrition, Child & Youth Development, Senior Empowerment, Community Transportation, Home Heating–Energy–Safety, and Community Development.”
+                      </p>
+                      <p>-HRDC</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
+            </div>
+
+            <div className="seperator-block">
+              <hr className="seperator"></hr>
             </div>
 
           </section>
