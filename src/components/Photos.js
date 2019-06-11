@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Carousel from 'react-bootstrap/Carousel';
 import Logo from "./../images/streamline-solar-logo.png";
+import { pics } from "./Photos-Photos";
 import "./../styles/index.scss";
 import "./../styles/photos.scss";
 
@@ -52,7 +53,30 @@ class Photos extends Component {
 
         <div className="main-body-wrapper">
           <main className="body-content">
-            
+
+            <div className="slideshow-row-wrapper">
+              <div className="slideshow-row-content">
+                <div className="slideshow-title-wrapper">
+                  <div className="slideshow-title">
+                    <h3>Sustainabilibash</h3>
+                  </div>
+                  <div className="photo-credz">
+                    <p>Photos by: Mike Allen</p>
+                    <p>Website by: Jesse Dahl</p>
+                  </div>
+                </div>
+                <div className="main-slider-wrapper">
+                  <div className="main-slider-content">
+                    <Carousel>
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={pics.AlChE1} alt="pic" />
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </main>
         </div>
 
