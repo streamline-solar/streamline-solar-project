@@ -31,7 +31,7 @@ class Partners extends Component {
                     <a href="/the-project" className="header-nav-item">The Project</a>
                     <a href="/our-progress" className="header-nav-item">Our Progress</a>
                     <a href="/our-partners" className="header-nav-item">Our Partners</a>
-                    <a href="/" className="header-nav-item">Photos</a>
+                    <a href="/photos" className="header-nav-item">Photos</a>
                     <a href="/" className="header-nav-item">Contact Us</a>
                     <a href="/" className="header-nav-item">Support Us</a>
                   </div>
