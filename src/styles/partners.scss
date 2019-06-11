@@ -11,3 +11,60 @@
   //position: fixed;
   background-attachment: fixed;
 }
+
+.body-title-wrapper {
+  padding: 20px;
+}
+
+.body-title {
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+.partners-title.wrapper {
+  padding: 20px;
+}
+
+.partners-title {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+}
+
+.partners-content {
+  padding: 20px 40px;
+}
+
+.partners-content-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners-content-row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.partners-image-wrapper {
+  padding: 20px;
+}
+
+.partners-info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.partners-info-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.partners-image {
+  width: 400px;
+  height: auto;
+}

@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/partners.scss";
 import Logo from "./../images/streamline-solar-logo.png";
+import AlChEBanner from "./../images/AlChE-smaller-banner.png";
+import MSULogo from "./../images/msu-logo.jpg";
 
 class Partners extends Component {
 
@@ -49,6 +51,73 @@ class Partners extends Component {
         </div>
       </div>
       </Fade>
+
+      <div className="main-body-wrapper">
+        <main className="body-content">
+          <div className="body-title-wrapper">
+            <div className="body-title">
+              <h2>
+                Our partners allow this project to become a reality. Because of their generosity and collaboration, Montana State Unviersity students can make a positive impact on their community.
+              </h2>
+            </div>
+          </div>
+          <section className="partners-wrapper">
+
+            <div className="seperator-block">
+              <hr className="seperator"></hr>
+            </div>
+
+            <div className="partners-title-wrapper">
+              <div className="partners-title">
+                <h3>Partners</h3>
+              </div>
+            </div>
+
+            <div className="seperator-block">
+              <hr className="seperator"></hr>
+            </div>
+
+            <div className="partners-content">
+              <div className="partners-content-column">
+
+                <div className="partners-content-row">
+                  <div className="partner-image-wrapper">
+                    <div className="partners-image-content">
+                      <img className="partners-image" src={AlChEBanner}></img>
+                    </div>
+                  </div>
+                  <div className="partners-info-wrapper">
+                    <div className="partners-info-content">
+                      <p>
+                        “The American Institute of Chemical Engineers is a world wide professional organization that facilitates the sharing of research, student competitions, varied conferences, global networking, and other learning opportunities.”
+                      </p>
+                      <p>-AlChE</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="partners-content-row">
+                  <div className="partner-image-wrapper">
+                    <div className="partners-image-content">
+                      <img className="partners-image" src={MSULogo}></img>
+                    </div>
+                  </div>
+                  <div className="partners-info-wrapper">
+                    <div className="partners-info-content">
+                      <p>
+                        “Montana State University is as remarkable as its setting. Created as a land-grant institution, it is a welcoming, adventurous community of students, faculty and staff distinguished by its commitment to address the world's greatest challenges. The university energizes individuals to discover and pursue their aspirations.”
+                      </p>
+                      <p>-Montana State University</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </section>
+        </main>
+      </div>
 
       </div>
     );
