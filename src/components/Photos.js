@@ -79,28 +79,22 @@ class Photos extends Component {
                     onSelect={this.handleSelect}
                     pauseOnHover={false} >
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-0.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-1.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-1.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-2.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-2.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-3.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-3.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-4.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-4.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-5.jpg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-5.jpeg")} alt="pic" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-6.jpeg")} alt="pic" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-7.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-6.jpeg")} alt="pic" />
                       </Carousel.Item>
                     </Carousel>
                   </div>
@@ -126,22 +120,30 @@ class Photos extends Component {
                     onSelect={this.handleSelect}
                     pauseOnHover={false} >
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-1.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-0.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-2.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-1.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-3.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-2.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-4.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-3.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-5.jpg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-4.jpeg")} alt="pic" />
                       </Carousel.Item>
                       <Carousel.Item>
-                        <img className="d-block w-100" src={require("./../images/photos/Bash/Bash-6.jpeg")} alt="pic" />
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-5.jpeg")} alt="pic" />
+                      </Carousel.Item>
+                      {/*
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-6.jpeg")} alt="pic" />
+                      </Carousel.Item>
+                      */}
+                      <Carousel.Item>
+                        <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-7.jpeg")} alt="pic" />
                       </Carousel.Item>
                     </Carousel>
                   </div>
