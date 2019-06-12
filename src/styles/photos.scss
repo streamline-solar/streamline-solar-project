@@ -11,3 +11,32 @@
   //position: fixed;
   background-attachment: fixed;
 }
+
+.slideshow-row-wrapper {
+  padding: 20px;
+}
+
+.slideshow-row-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.slideshow-title-wrapper{
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.main-slider-wrapper {
+  padding: 20px;
+  width: 100%
+}
+
+.main-slider-content {
+  //text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+  height: 500px;
+}
