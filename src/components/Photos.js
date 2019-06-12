@@ -154,6 +154,21 @@ class Photos extends Component {
           </main>
         </div>
 
+        <footer className="Footer">
+          <div className="inner-footer FlexCenter">
+            <div className="promotional-content-wrapper">
+              <div className="promotional-content">
+              
+              </div>
+            </div>
+            <div className="my-shameless-promo-wrapper">
+              <div className="my-shameless-promo">
+                <h6>Created By: Jesse Dahl</h6>
+              </div>
+            </div>
+          </div>
+        </footer>
+
       </div>
     );
   }
