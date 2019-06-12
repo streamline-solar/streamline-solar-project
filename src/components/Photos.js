@@ -69,7 +69,6 @@ class Photos extends Component {
                   </div>
                   <div className="photo-credz">
                     <p>Photos by: Mike Allen</p>
-                    <p>Website by: Jesse Dahl</p>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
@@ -117,7 +116,6 @@ class Photos extends Component {
                   </div>
                   <div className="photo-credz">
                     <p>Photos by: Mike Allen</p>
-                    <p>Website by: Jesse Dahl</p>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
