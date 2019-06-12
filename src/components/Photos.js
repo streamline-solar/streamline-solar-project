@@ -137,7 +137,7 @@ class Photos extends Component {
                       <Carousel.Item>
                         <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-5.jpeg")} alt="pic" />
                       </Carousel.Item>
-                      {/*
+                      {/* lmao wut is this picture? what are any of these pictures???
                       <Carousel.Item>
                         <img className="d-block w-100" src={require("./../images/photos/AlChE/AlChE-6.jpeg")} alt="pic" />
                       </Carousel.Item>
