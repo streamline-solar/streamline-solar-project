@@ -30,7 +30,7 @@ class Progress extends Component {
                       <a href="/our-progress" className="header-nav-item">Our Progress</a>
                       <a href="/our-partners" className="header-nav-item">Our Partners</a>
                       <a href="/photos" className="header-nav-item">Photos</a>
-                      <a href="/" className="header-nav-item">Contact Us</a>
+                      <a href="/contact-us" className="header-nav-item">Contact Us</a>
                       <a href="/" className="header-nav-item">Support Us</a>
                     </div>
                   </nav>

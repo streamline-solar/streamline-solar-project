@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Logo from "./../images/streamline-solar-logo.png";
 import "./../styles/index.scss";
+import "./../styles/contact.scss";
 
 class Contact extends Component {
 
   render() {
     return(
       <Fade>
-      <div className="photos-top-page-wrapper">
-        <div className="photos-top-page-background">
+      <div className="contact-top-page-wrapper">
+        <div className="contact-top-page-background">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -25,7 +26,7 @@ class Contact extends Component {
                     <a href="/our-progress" className="header-nav-item">Our Progress</a>
                     <a href="/our-partners" className="header-nav-item">Our Partners</a>
                     <a href="/photos" className="header-nav-item">Photos</a>
-                    <a href="/" className="header-nav-item">Contact Us</a>
+                    <a href="/contact-us" className="header-nav-item">Contact Us</a>
                     <a href="/" className="header-nav-item">Support Us</a>
                   </div>
                 </nav>
@@ -37,7 +38,7 @@ class Contact extends Component {
               <div className="vision-content">
                 <div className="vision-content-text">
                   <h2 className="LargerText">
-                    <strong>Photos</strong>
+                    <strong>Conctact Us</strong>
                   </h2>
                 </div>
               </div>
