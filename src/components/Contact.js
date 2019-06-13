@@ -5,6 +5,12 @@ import Logo from "./../images/streamline-solar-logo.png";
 import "./../styles/index.scss";
 import "./../styles/contact.scss";
 
+{/* To Do For Tomorrow:
+  * Finish styling the contact page and photos page
+  * Fix the width and height of the contact info
+  * Start the support us page
+*/}
+
 class Contact extends Component {
 
   render() {
