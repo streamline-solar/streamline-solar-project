@@ -53,6 +53,7 @@ class Contact extends Component {
 
         <div className="main-body-wrapper">
           <main className="body-content">
+
             <div className="contact-info-wrapper">
               <div className="contact-info-content">
 
@@ -85,7 +86,8 @@ class Contact extends Component {
 
             <div className="specific-contact-wrapper">
               <div className="specific-contact-info">
-                <div className="project-lead-column-wrapper">
+
+                <div className="project-column-wrapper">
                   <div className="project-lead-column">
                     <div className="project-lead-title">
                       <h2>Project Lead:</h2>
@@ -97,6 +99,33 @@ class Contact extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div className="project-column-wrapper">
+                  <div className="project-lead-column">
+                    <div className="project-lead-title">
+                      <h2>Communications & Outreach:</h2>
+                    </div>
+                    <div className="project-lead-info">
+                      <h4>Kelcey Sterling</h4>
+                      <a href="mailto: kdawnsterling@gmail.com">kdawnsterling@gmail.com</a>
+                      <a href="tel:+208-392-7211">(208) 392-7211</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="project-column-wrapper">
+                  <div className="project-lead-column">
+                    <div className="project-lead-title">
+                      <h2>Faculty Advisor:</h2>
+                    </div>
+                    <div className="project-lead-info">
+                      <h4>Kelcey Sterling</h4>
+                      <a href="mailto: joseph.menicucci@montana.edu">joseph.menicucci@montana.edu</a>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
 
