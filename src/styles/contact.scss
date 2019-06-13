@@ -11,3 +11,55 @@
   //position: fixed;
   background-attachment: fixed;
 }
+
+.contact-info-wrapper {
+  padding: 20px;
+}
+
+.contact-info-title-wrapper {
+  text-align: center;
+}
+
+.contact-info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-actual-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-email {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+}
+
+.contact-info-instagram {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+}
+
+.contact-info-other-information {
+  text-align: center;
+}

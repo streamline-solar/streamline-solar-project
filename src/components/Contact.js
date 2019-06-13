@@ -55,6 +55,7 @@ class Contact extends Component {
           <main className="body-content">
             <div className="contact-info-wrapper">
               <div className="contact-info-content">
+
                 <div className="contact-info-title-wrapper">
                   <div className="contact-info-title">
                     <h3>Streamline Solar Stops</h3>
@@ -77,8 +78,28 @@ class Contact extends Component {
                     <p>For specific or urgent inquiries about events, participants, or donations, please contact the appropriate team members in addition to the general project email</p>
                   </div>
                 </div>
+
               </div>
             </div>
+
+
+            <div className="specific-contact-wrapper">
+              <div className="specific-contact-info">
+                <div className="project-lead-column-wrapper">
+                  <div className="project-lead-column">
+                    <div className="project-lead-title">
+                      <h2>Project Lead:</h2>
+                    </div>
+                    <div className="project-lead-info">
+                      <h4>Graham Hughes</h4>
+                      <a href="mailto: robertgrahamhughes94@gmail.com">robertgrahamhughes94@gmail.com</a>
+                      <a href="tel:+972-955-1227">(972) 955-1227</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </main>
         </div>
 
