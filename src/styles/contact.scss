@@ -81,10 +81,16 @@
 .person-contact-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 40px;
 
   a {
     text-decoration: none;
     color: #636363;
   }
+}
+
+.project-lead-title {
+  text-align: center;
 }
