@@ -68,7 +68,8 @@ class Photos extends Component {
                     <h3>Sustainabilibash</h3>
                   </div>
                   <div className="photo-credz">
-                    <p>Photos by: Mike Allen</p>
+                    <p><em>Photos by: </em></p>
+                    <a href="https://www.instagram.com/m.dallen" target="_blank"><em>Mike Allen</em></a>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
@@ -109,7 +110,8 @@ class Photos extends Component {
                     <h3>AlChE Climate Conference</h3>
                   </div>
                   <div className="photo-credz">
-                    <p>Photos by: Mike Allen</p>
+                    <p><em>Photos by: </em></p>
+                    <a href="https://www.instagram.com/m.dallen" target="_blank"><em>Mike Allen</em></a>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
