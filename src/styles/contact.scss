@@ -65,7 +65,7 @@
 }
 
 .specific-contact-wrapper {
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .specific-contact-info {
@@ -78,12 +78,12 @@
   padding: 20px;
 }
 
-.person-contact-info {
+.person-contact-info-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 40px;
+  //line-height: 40px;
 
   a {
     text-decoration: none;
@@ -93,4 +93,29 @@
 
 .project-lead-title {
   text-align: center;
+  font-family: proxima-nova;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.57px;
+  color: $DarkGrey;
+  text-transform: uppercase;
+}
+
+.person-text {
+  color: $MediumGrey;
+  font-size: 18px;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.person-contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    margin: 15px 0;
+  }
 }

@@ -98,10 +98,12 @@ class Contact extends Component {
                     <div className="project-lead-title">
                       <h2>Project Lead:</h2>
                     </div>
-                    <div className="person-contact-info">
-                      <h4>Graham Hughes</h4>
-                      <a href="mailto: robertgrahamhughes94@gmail.com">robertgrahamhughes94@gmail.com</a>
-                      <a href="tel:+972-955-1227">(972) 955-1227</a>
+                    <div className="person-contact-info-wrapper">
+                      <h4 className="person-text">Graham Hughes</h4>
+                      <div className="person-contact-info">
+                        <a href="mailto: robertgrahamhughes94@gmail.com">robertgrahamhughes94@gmail.com</a>
+                        <a href="tel:+972-955-1227">(972) 955-1227</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -111,10 +113,12 @@ class Contact extends Component {
                     <div className="project-lead-title">
                       <h2>Communications & Outreach:</h2>
                     </div>
-                    <div className="person-contact-info">
-                      <h4>Kelcey Sterling</h4>
-                      <a href="mailto: kdawnsterling@gmail.com">kdawnsterling@gmail.com</a>
-                      <a href="tel:+208-392-7211">(208) 392-7211</a>
+                    <div className="person-contact-info-wrapper">
+                      <h4 className="person-text">Kelcey Sterling</h4>
+                      <div className="person-contact-info">
+                        <a href="mailto: kdawnsterling@gmail.com">kdawnsterling@gmail.com</a>
+                        <a href="tel:+208-392-7211">(208) 392-7211</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -124,9 +128,11 @@ class Contact extends Component {
                     <div className="project-lead-title">
                       <h2>Faculty Advisor:</h2>
                     </div>
-                    <div className="person-contact-info">
-                      <h4>Joseph Menicucci</h4>
-                      <a href="mailto: joseph.menicucci@montana.edu">joseph.menicucci@montana.edu</a>
+                    <div className="person-contact-info-wrapper">
+                      <h4 className="person-text">Joseph Menicucci</h4>
+                      <div className="person-contact-info">
+                        <a href="mailto: joseph.menicucci@montana.edu">joseph.menicucci@montana.edu</a>
+                      </div>
                     </div>
                   </div>
                 </div>
