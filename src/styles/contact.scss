@@ -18,6 +18,20 @@
 
 .contact-info-title-wrapper {
   text-align: center;
+  color: $DarkGrey;
+  font-weight: 700;
+  font-family: adobe-garamond-pro, serif;
+
+  .contact-info-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+
+  }
+
+  .contact-info-subtitle {
+    color: $MediumGrey;
+    font-size: 18px;
+  }
 }
 
 .contact-info-content {
@@ -37,6 +51,12 @@
 .contact-info-email {
   display: flex;
   flex-direction: row;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 18px;
+  
+  h4 {
+    color: $DarkGrey;
+  }
 
   a {
     display: flex;
@@ -44,12 +64,19 @@
     align-items: center;
     text-decoration: none;
     color: #b3b3b3;
+    margin: 0 10px;
   }
 }
 
 .contact-info-instagram {
   display: flex;
   flex-direction: row;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 18px;
+
+  h4 {
+    color: $DarkGrey;
+  }
 
   a {
     display: flex;
@@ -57,11 +84,16 @@
     align-items: center;
     text-decoration: none;
     color: #b3b3b3;
+    margin: 0 10px;
   }
 }
 
 .contact-info-other-information {
   text-align: center;
+  color: $MediumGrey;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .specific-contact-wrapper {
@@ -75,7 +107,7 @@
 }
 
 .project-column-wrapper {
-  padding: 20px;
+  padding: 30px;
 }
 
 .person-contact-info-wrapper {
@@ -94,7 +126,7 @@
 .project-lead-title {
   text-align: center;
   font-family: proxima-nova;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.57px;
   color: $DarkGrey;
@@ -103,8 +135,8 @@
 
 .person-text {
   color: $MediumGrey;
-  font-size: 18px;
-  font-family: adobe-garamond-pro;
+  font-size: 20px;
+  font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   letter-spacing: normal;
 }
