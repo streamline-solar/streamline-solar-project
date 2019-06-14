@@ -28,7 +28,7 @@ class Support extends Component {
                     <a href="/our-partners" className="header-nav-item">Our Partners</a>
                     <a href="/photos" className="header-nav-item">Photos</a>
                     <a href="/contact-us" className="header-nav-item">Contact Us</a>
-                    <a href="/" className="header-nav-item">Support Us</a>
+                    <a href="/support-us" className="header-nav-item">Support Us</a>
                   </div>
                 </nav>
               </div>
@@ -39,7 +39,7 @@ class Support extends Component {
               <div className="vision-content">
                 <div className="vision-content-text">
                   <h2 className="LargerText">
-                    <strong>Our Partners</strong>
+                    <strong>Support Us</strong>
                   </h2>
                 </div>
               </div>

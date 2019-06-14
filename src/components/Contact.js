@@ -36,7 +36,7 @@ class Contact extends Component {
                       <a href="/our-partners" className="header-nav-item">Our Partners</a>
                       <a href="/photos" className="header-nav-item">Photos</a>
                       <a href="/contact-us" className="header-nav-item">Contact Us</a>
-                      <a href="/" className="header-nav-item">Support Us</a>
+                      <a href="/support-us" className="header-nav-item">Support Us</a>
                     </div>
                   </nav>
                 </div>

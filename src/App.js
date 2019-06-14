@@ -6,6 +6,7 @@ import Progress from "./components/OurProgress";
 import Partners from "./components/Partners";
 import Photos from "./components/Photos";
 import Contact from "./components/Contact";
+import Support from "./components/Support";
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         <Route exact path="/our-partners" component={Partners} />
         <Route exact path="/photos" component={Photos} />
         <Route exact path="/contact-us" component={Contact} />
+        <Route exact path="/support-us" component={Support} />
       </Switch>
     </main>
     );
