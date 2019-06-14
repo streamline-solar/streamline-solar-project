@@ -12,6 +12,20 @@
   background-attachment: fixed;
 }
 
+.support-page-wrapper {
+  padding: 10px;
+}
+
+.support-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.support-page-text {
+  display: flex;
+  flex-direction: row;
+}
+
 .support-body-title-wrapper {
   padding: 20px;
 }
@@ -22,4 +36,76 @@
   color: $DarkGrey;
   font-weight: 400;
   text-align: center;
+}
+
+.SupportButton {
+  height: 30px;
+  width: 160px;
+  background-color: $black;
+  transition: background-color 0.2s;
+  border: 3px solid $white;
+  border-radius: 300px;
+  text-decoration: none;
+  color: $white;
+  font-size: 1.4rem;
+  padding: 20px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(49, 49, 49);
+    color: $white;
+  }
+}
+
+.donate-block-wrapper {
+  padding: 15px;
+  width: 50%;
+}
+
+.donate-block-content {
+  text-align: center;
+  line-height: 25px;
+}
+
+.news-block-wrapper {
+  padding: 15px;
+  width: 50%;
+}
+
+.news-block-content {
+  text-align: center;
+  line-height: 25px;
+}
+
+.block-seperator-wrap {
+  width: 16.6667%;
+}
+
+.block-seperator {
+  padding: 15px;
+}
+
+.block-body-content {
+  line-height: 30px;
+  font-family: adobe-garamond-pro, serif;
+  color: $MediumGrey;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.buttons-wrapper {
+  padding: 20px 40px;
+}
+
+.buttons-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.support-button-wrapper {
+  padding: 10px;
+}
+
+.news-button-wrapper {
+  padding: 10px;
 }
