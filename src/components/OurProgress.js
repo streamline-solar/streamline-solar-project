@@ -213,7 +213,10 @@ class Progress extends Component {
                             </label>
                           </div>
                           <div className="field-last-name">
-                            
+                            <label className="caption">
+                              <input className="field-element" name="lname" type="text" spellcheck="false" maxlength="30" data-title="Last" />
+                              Last Name
+                            </label>
                           </div>
                         </fieldset>
                       </div>
