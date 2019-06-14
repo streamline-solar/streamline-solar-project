@@ -51,7 +51,40 @@ class Support extends Component {
 
       <div className="main-body-wrapper">
         <main className="body-content">
-        
+          <div className="support-body-title-wrapper">
+            <div className="support-body-title">
+              <h2>Find out how you can help us make a difference in the greater Bozeman area!</h2>
+            </div>
+          </div>
+
+          <div className="seperator-block">
+            <hr className="seperator"></hr>
+          </div>
+
+          <section className="support-page-wrapper">
+            <div className="support-page-content">
+              <div className="donate-block-wrapper">
+                <div className="donate-block-content">
+                  <div className="donate-block-title-wrapper">
+                    <div className="donate-block-title">
+                      <h3><strong>Donate</strong></h3>
+                    </div>
+                  </div>
+                  <div className="donate-block-body-wrapper">
+                    <div className="donate-block-body-content">
+                      <p>Your donation allows us to connect with more community members, students, and businesses who help facilitate our project and will be the key in the implementation and construction of our Solar Stops. Please reach out to find out how to donate.</p>
+                    </div>
+                  </div>
+                  <div className="button-wrapper FlexRowCenter">
+                  <div className="button-content">
+                    <a href="/" className="Button ImageButton FlexCenter">Contact Us</a>
+                  </div>
+                </div>
+                </div>
+              </div> 
+            </div>
+          </section>
+
         </main>
       </div>
 

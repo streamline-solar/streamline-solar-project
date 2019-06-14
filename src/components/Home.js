@@ -137,7 +137,7 @@ class Home extends Component {
                         </div>
                         <div className="button-wrapper FlexRowCenter">
                           <div className="button-content">
-                            <a href="/" className="Button ImageButton FlexCenter">Find Out How</a>
+                            <a href="/our-partners" className="Button ImageButton FlexCenter">Find Out How</a>
                           </div>
                         </div>
                       </div>
@@ -156,7 +156,7 @@ class Home extends Component {
                         </div>
                         <div className="button-wrapper FlexRowCenter">
                           <div className="button-content">
-                            <a href="/" className="Button ImageButton FlexCenter">See More</a>
+                            <a href="/photos" className="Button ImageButton FlexCenter">See More</a>
                           </div>
                         </div>
                       </div>
@@ -175,7 +175,7 @@ class Home extends Component {
                         </div>
                         <div className="button-wrapper FlexRowCenter">
                           <div className="button-content">
-                            <a href="/" className="Button ImageButton FlexCenter">Contact</a>
+                            <a href="/contact-us" className="Button ImageButton FlexCenter">Contact</a>
                           </div>
                         </div>
                       </div>
