@@ -67,7 +67,7 @@ class Support extends Component {
 
               <div className="support-page-text">
             
-                <div className="donate-block-wrapper">
+                <div className="donate-block-wrapper block-wrapper">
                   <div className="donate-block-content">
                     <div className="donate-block-title-wrapper">
                       <div className="donate-block-title block-title">
@@ -89,7 +89,7 @@ class Support extends Component {
                   </div>
                 </div>
 
-                <div className="news-block-wrapper">
+                <div className="news-block-wrapper block-wrapper">
                   <div className="news-block-content">
                     <div className="news-block-title-wrapper">
                       <div className="news-block-title block-title">

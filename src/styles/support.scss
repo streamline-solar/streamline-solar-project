@@ -31,10 +31,10 @@
 }
 
 .support-body-title {
-  font-family: adobe-garamond-pro, serif;
+  font-family: proxima-nova, serif;
   font-size: 18px;
   color: $DarkGrey;
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
 }
 
@@ -57,19 +57,15 @@
   }
 }
 
-.donate-block-wrapper {
-  padding: 15px;
-  width: 50%;
-}
-
 .donate-block-content {
   text-align: center;
   line-height: 25px;
 }
 
-.news-block-wrapper {
+
+.block-wrapper {
   padding: 15px;
-  width: 50%;
+  width: 40%
 }
 
 .news-block-content {
@@ -85,8 +81,16 @@
   padding: 15px;
 }
 
+.block-title {
+  font-family: adobe-garamond-pro, serif;
+  color: $DarkGrey;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.57px;
+}
+
 .block-body-content {
-  line-height: 30px;
+  line-height: 40px;
   font-family: adobe-garamond-pro, serif;
   color: $MediumGrey;
   font-weight: 400;
@@ -94,7 +98,7 @@
 }
 
 .buttons-wrapper {
-  padding: 20px 40px;
+  padding: 20px 30px;
 }
 
 .buttons-buttons {
