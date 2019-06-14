@@ -85,7 +85,7 @@ class Partners extends Component {
                 <div className="partners-content-row">
                   <div className="partner-image-wrapper">
                     <div className="partners-image-content">
-                      <img className="partners-image" src={AlChEBanner}></img>
+                      <img className="partners-image" src={AlChEBanner} alt="AlChE Banner"></img>
                     </div>
                   </div>
                   <div className="partners-info-wrapper">
@@ -101,7 +101,7 @@ class Partners extends Component {
                 <div className="partners-content-row">
                   <div className="partner-image-wrapper">
                     <div className="partners-image-content">
-                      <img className="partners-image" src={MSULogo}></img>
+                      <img className="partners-image" src={MSULogo} alt="MSU Logo"></img>
                     </div>
                   </div>
                   <div className="partners-info-wrapper">
@@ -117,7 +117,7 @@ class Partners extends Component {
                 <div className="partners-content-row">
                   <div className="partner-image-wrapper">
                     <div className="partners-image-content">
-                      <img className="partners-image" src={StreamlineLogo}></img>
+                      <img className="partners-image" src={StreamlineLogo} alt="Streamline Logo"></img>
                     </div>
                   </div>
                   <div className="partners-info-wrapper">
@@ -133,7 +133,7 @@ class Partners extends Component {
                 <div className="partners-content-row">
                   <div className="partner-image-wrapper">
                     <div className="partners-image-content">
-                      <img className="partners-image" src={HRDCLogo}></img>
+                      <img className="partners-image" src={HRDCLogo} alt="HRDC Logo"></img>
                     </div>
                   </div>
                   <div className="partners-info-wrapper">

@@ -88,7 +88,7 @@ class Project extends Component {
                     </div>
                     <div className="image-wrapper">
                       <div className="image-image">
-                        <img className="project-body-image" src={OurStory} alt="just an image" />
+                        <img className="project-body-image" src={OurStory} alt="bus stop pic" />
                       </div>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ class Project extends Component {
                   <div className="body-element-content FlexColCenter">
                     <div className="image-wrapper">
                       <div className="image-image">
-                        <img className="project-body-image" src={OurStudents} alt="just an image" />
+                        <img className="project-body-image" src={OurStudents} alt="students pic" />
                        </div>
                     </div>
                     <div className="left-text-wrapper">
@@ -143,7 +143,7 @@ class Project extends Component {
                 <h6>Created By:</h6>
               </div>
               <div className="promo-link-wrapper">
-                <a href="https://www.jesse-dahl.com" target="_blank" id="shameless-promo-link">Jesse Dahl</a>
+                <a href="https://www.jesse-dahl.com" target="_blank" rel="noopener noreferrer" id="shameless-promo-link">Jesse Dahl</a>
               </div>
             </div>
           </div>

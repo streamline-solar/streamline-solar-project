@@ -90,7 +90,7 @@ class Progress extends Component {
                       </div>
                       <div className="image-wrapper">
                         <div className="image-image">
-                          <img className="progress-body-image" src={UniversitySupport} alt="just an image" />
+                          <img className="progress-body-image" src={UniversitySupport} alt="mountains?" />
                         </div>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ class Progress extends Component {
                     <div className="body-element-content FlexColCenter">
                       <div className="image-wrapper">
                         <div className="image-image">
-                          <img className="progress-body-image" src={StudentInvolvement} alt="just an image" />
+                          <img className="progress-body-image" src={StudentInvolvement} alt="random person" />
                         </div>
                       </div>
                       <div className="left-text-wrapper">
@@ -146,7 +146,7 @@ class Progress extends Component {
                         </div>
                         <div className="image-wrapper">
                           <div className="image-image">
-                            <img className="progress-body-image" src={Sustainabilibash} alt="just an image" />
+                            <img className="progress-body-image" src={Sustainabilibash} alt="msu campus" />
                           </div>
                         </div>
                       </div>
@@ -154,7 +154,7 @@ class Progress extends Component {
                       <div className="main-events-content FlexColCenter">
                         <div className="image-wrapper">
                           <div className="image-image">
-                            <img className="progress-body-image" src={ClimateConference} alt="just an image" />
+                            <img className="progress-body-image" src={ClimateConference} alt="climate conference" />
                           </div>
                         </div>
                         <div className="left-text-wrapper">

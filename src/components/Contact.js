@@ -1,15 +1,8 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link } from "react-router-dom";
 import Logo from "./../images/streamline-solar-logo.png";
 import "./../styles/index.scss";
 import "./../styles/contact.scss";
-
-{/* To Do For Tomorrow:
-  * Finish styling the contact page and photos page
-  * Fix the width and height of the contact info
-  * Start the support us page
-*/}
 
 class Contact extends Component {
 
@@ -78,7 +71,7 @@ class Contact extends Component {
                   </div>
                   <div className="contact-info-instagram">
                     <h4><strong>Instagram:  </strong></h4>
-                    <a href="https://www.instagram.com/streamlinesolarstops/?hl=en" target="_blank">Streamline Solar Stops</a>
+                    <a href="https://www.instagram.com/streamlinesolarstops/?hl=en" target="_blank" rel="noopener noreferrer">Streamline Solar Stops</a>
                   </div>
                   <div className="contact-info-other-information">
                     <p>Please email with questions, comments, or concerns and we will get back to you as soon as possible</p>

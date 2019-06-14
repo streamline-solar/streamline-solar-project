@@ -89,7 +89,7 @@ class Home extends Component {
 
                     <div className="single-image-wrapper AlignLeft JustSomePadding">
                       <div className="image-content-wrapper FlexCenter">
-                        <img className="QuickLinkImage" id="project-link-image" src={ProjectImage} alt="just a random image"></img>
+                        <img className="QuickLinkImage" id="project-link-image" src={ProjectImage} alt="pic of a classroom"></img>
                         <div className="image-text-block">
                           <div className="image-text-title">
                             <h2 className="ImageTitle">The Project</h2>
@@ -108,7 +108,7 @@ class Home extends Component {
 
                   <div className="single-image-wrapper AlignRight JustSomePadding">
                     <div className="image-content-wrapper FlexCenter">
-                      <img className="QuickLinkImage" id="project-link-image" src={ProgressImage} alt="just a random image"></img>
+                      <img className="QuickLinkImage" id="project-link-image" src={ProgressImage} alt="bus"></img>
                       <div className="image-text-block">
                         <div className="image-text-title">
                           <h2 className="ImageTitle">Our Progress</h2>
@@ -127,7 +127,7 @@ class Home extends Component {
 
                   <div className="single-image-wrapper AlignLeft JustSomePadding">
                     <div className="image-content-wrapper FlexCenter">
-                      <img className="QuickLinkImage" id="project-link-image" src={PartnerImage} alt="just a random image"></img>
+                      <img className="QuickLinkImage" id="project-link-image" src={PartnerImage} alt="random kids in the great outdoors"></img>
                       <div className="image-text-block">
                         <div className="image-text-title">
                           <h2 className="ImageTitle">Our Partners</h2>
@@ -146,7 +146,7 @@ class Home extends Component {
 
                   <div className="single-image-wrapper AlignRight JustSomePadding">
                     <div className="image-content-wrapper FlexCenter">
-                      <img className="QuickLinkImage" id="project-link-image" src={PhotosImage} alt="just a random image"></img>
+                      <img className="QuickLinkImage" id="project-link-image" src={PhotosImage} alt="Streamline Solar Stops at Sustainabilibash"></img>
                       <div className="image-text-block">
                         <div className="image-text-title">
                           <h2 className="ImageTitle">Photos</h2>
@@ -165,7 +165,7 @@ class Home extends Component {
 
                   <div className="single-image-wrapper AlignLeft JustSomePadding">
                     <div className="image-content-wrapper FlexCenter">
-                      <img className="QuickLinkImage" id="project-link-image" src={ContactImage} alt="just a random image"></img>
+                      <img className="QuickLinkImage" id="project-link-image" src={ContactImage} alt="more random kids"></img>
                       <div className="image-text-block">
                         <div className="image-text-title">
                           <h2 className="ImageTitle">Contact Us</h2>

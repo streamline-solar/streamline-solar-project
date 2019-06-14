@@ -6,12 +6,6 @@ import "./../styles/index.scss";
 import "./../styles/photos.scss";
 import "./../styles/bootstrap.scss";
 
-let handleSelect = (selectedIndex, e) => {
-  this.setState({
-    index: selectedIndex,
-    direction: e.direction,
-  });
-}
 
 class Photos extends Component {
 
@@ -69,7 +63,7 @@ class Photos extends Component {
                   </div>
                   <div className="photo-credz">
                     <p><em>Photos by: </em></p>
-                    <a href="https://www.instagram.com/m.dallen" target="_blank"><em>Mike Allen</em></a>
+                    <a href="https://www.instagram.com/m.dallen" target="_blank" rel="noopener noreferrer"><em>Mike Allen</em></a>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
@@ -111,7 +105,7 @@ class Photos extends Component {
                   </div>
                   <div className="photo-credz">
                     <p><em>Photos by: </em></p>
-                    <a href="https://www.instagram.com/m.dallen" target="_blank"><em>Mike Allen</em></a>
+                    <a href="https://www.instagram.com/m.dallen" target="_blank" rel="noopener noreferrer"><em>Mike Allen</em></a>
                   </div>
                 </div>
                 <div className="main-slider-wrapper">
