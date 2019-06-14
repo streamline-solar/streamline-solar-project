@@ -186,6 +186,19 @@ class Progress extends Component {
               <hr className="seperator"></hr>
             </div>
 
+            <div className="full-newsletter-wrapper">
+              <div className="newsletter-title-wrapper">
+                <div className="newsletter-title-content">
+                  <div className="newsletter-title">
+                    <h1><strong>Newsletter</strong></h1>
+                  </div>
+                  <div className="newsletter-subtitle">
+                    <p>Sign up for our newsletters to get updates on our progress! We will be sending out a newsletter every 2 to 3 weeks.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </main>
         </div>
 
