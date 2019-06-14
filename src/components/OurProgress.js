@@ -197,6 +197,30 @@ class Progress extends Component {
                   </div>
                 </div>
               </div>
+
+              <section className="newsletter-form-wrapper">
+                <div className="newsletter-form-content">
+                  <div className="newsletter-inner-form">
+                    <form className="actual-form">
+                      <div className="inner-form-content">
+                        <fieldset className="form-fieldset">
+                          <div className="name-title"></div>
+                          <legend>Name</legend>
+                          <div className="field-first-name">
+                            <label className="caption">
+                              <input className="field-element" name="fname" type="text" spellcheck="false" maxlength="30" data-title="First" />
+                              First Name
+                            </label>
+                          </div>
+                          <div className="field-last-name">
+                            
+                          </div>
+                        </fieldset>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </section>
             </div>
 
           </main>
