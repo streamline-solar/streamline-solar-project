@@ -49,6 +49,12 @@ class Support extends Component {
       </div>
       </Fade>
 
+      <div className="main-body-wrapper">
+        <main className="body-content">
+        
+        </main>
+      </div>
+
       </div>
     );
   }
