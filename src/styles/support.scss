@@ -1,1 +1,13 @@
 @import "colors";
+
+.support-top-page-background {
+  background: url("./../images/support-home-edited.jpg");
+  background-position: center;
+  width: 100%;
+  height: -webkit-fill-available;
+  opacity: 0.9;
+  background-color: transparent;
+  background-size: cover;
+  //position: fixed;
+  background-attachment: fixed;
+}

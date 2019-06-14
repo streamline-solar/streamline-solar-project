@@ -10,8 +10,8 @@ class Support extends Component {
       <div className="main-page-wrapper">
       
       <Fade>
-      <div className="partners-top-page-wrapper">
-        <div className="partners-top-page-background">
+      <div className="support-top-page-wrapper">
+        <div className="support-top-page-background">
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -53,3 +53,5 @@ class Support extends Component {
     );
   }
 }
+
+export default Support;
