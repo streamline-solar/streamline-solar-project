@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/progress.scss";
 import Logo from "./../images/streamline-solar-logo.png";
+import Footer from "./Footer";
 import UniversitySupport from "./../images/progress-support.jpeg";
 import StudentInvolvement from "./../images/progress-student.jpeg";
 import Sustainabilibash from "./../images/sustainabilibash.jpg";
@@ -226,20 +227,7 @@ class Progress extends Component {
           </main>
         </div>
 
-      <footer className="Footer">
-        <div className="inner-footer FlexCenter">
-          <div className="promotional-content-wrapper">
-            <div className="promotional-content">
-            
-            </div>
-          </div>
-          <div className="my-shameless-promo-wrapper">
-            <div className="my-shameless-promo">
-              <h6>Created By: Jesse Dahl</h6>
-            </div>
-          </div>
-        </div>
-      </footer>
+        <Footer />
 
       </div>
     );

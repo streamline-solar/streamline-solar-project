@@ -6,6 +6,7 @@ import "./../styles/mobile.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 import OurStory from "./../images/project-stop.jpeg";
 import OurStudents from "./../images/project-our-students.jpeg";
+import Footer from "./Footer";
 
 class Project extends Component {
   render() {
@@ -132,25 +133,7 @@ class Project extends Component {
         </main>
       </div>
 
-      <footer className="Footer">
-        <div className="inner-footer FlexCenter">
-          <div className="promotional-content-wrapper">
-            <div className="promotional-content">
-            
-            </div>
-          </div>
-          <div className="my-shameless-promo-wrapper">
-            <div className="my-shameless-promo">
-              <div className="created-by-wrapper">
-                <h6>Created By:</h6>
-              </div>
-              <div className="promo-link-wrapper">
-                <a href="https://www.jesse-dahl.com" target="_blank" rel="noopener noreferrer" id="shameless-promo-link">Jesse Dahl</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       </div>
     );
