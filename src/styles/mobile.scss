@@ -166,4 +166,15 @@
   .contact-info-other-information {
     text-align: left !important;
   }
+
+  /** Support Page */
+
+  .support-page-text {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .block-wrapper {
+    width: 100% !important;
+  }
 }
