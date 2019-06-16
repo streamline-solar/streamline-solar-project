@@ -40,7 +40,7 @@ class Project extends Component {
               <div className="vision-wrapper FlexRowCenter">
                 <div className="vision-content">
                   <div className="vision-content-text">
-                    <h2 className="LargeText LargeMobileText">
+                    <h2 className="LargerText LargeMobileText">
                       <strong>The Project</strong>
                     </h2>
                   </div>
@@ -101,11 +101,6 @@ class Project extends Component {
 
                 <div className="body-element-wrapper InlineBlock">
                   <div className="body-element-content FlexColCenter">
-                    <div className="image-wrapper">
-                      <div className="image-image">
-                        <img className="project-body-image" src={OurStudents} alt="students pic" />
-                       </div>
-                    </div>
                     <div className="left-text-wrapper">
                       <div className="left-text-content">
                         <div className="left-text-title">
@@ -114,6 +109,12 @@ class Project extends Component {
                         <div className="left-text-body">
                           <p className="SmallText">Not only does the Streamline Solar Stops project connect students to the community, but it connects us to each other. We are striving to encourage extensive interdisciplinary cooperation between all corners of the university. Our project is entirely student run; from communication and outreach, to energy technology and design, our students have the skills and drive to do it all. Our team is made up of students from departments all across campus including Engineering, Arts and Architecture, and Business.</p>
                         </div>
+                      </div>
+                    </div>
+
+                    <div className="image-wrapper">
+                      <div className="image-image">
+                        <img className="project-body-image" src={OurStudents} alt="students pic" />
                       </div>
                     </div>
 
