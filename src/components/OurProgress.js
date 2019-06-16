@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/progress.scss";
-import Logo from "./../images/streamline-solar-logo.png";
 import Header from "./Header";
 import Footer from "./Footer";
 import UniversitySupport from "./../images/progress-support.jpeg";

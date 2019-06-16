@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/project.scss";
 import "./../styles/mobile.scss";
-import Logo from "./../images/streamline-solar-logo.png";
 import OurStory from "./../images/project-stop.jpeg";
 import OurStudents from "./../images/project-our-students.jpeg";
 import ProjectBackground from "../images/project-home-image-effects.jpg";

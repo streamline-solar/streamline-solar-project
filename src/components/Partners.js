@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 import Header from "./Header";
 import Footer from "./Footer";
 import "./../styles/index.scss";
 import "./../styles/partners.scss";
-import Logo from "./../images/streamline-solar-logo.png";
 import AlChEBanner from "./../images/AlChE-smaller-banner.png";
 import MSULogo from "./../images/msu-logo.jpg";
 import StreamlineLogo from "./../images/streamline-logo.png";

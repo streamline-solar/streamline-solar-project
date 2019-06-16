@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 import Carousel from 'react-bootstrap/Carousel';
-import Logo from "./../images/streamline-solar-logo.png";
 import Footer from "./Footer";
 import Header from "./Header";
 import "./../styles/index.scss";
