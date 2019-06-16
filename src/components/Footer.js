@@ -10,7 +10,9 @@ class Footer extends Component {
         <div className="inner-footer FlexCenter">
           <div className="promotional-content-wrapper">
             <div className="promotional-content">
-            
+              <a href="instagram.com" className="promo-image-wrapper">
+                <img className="promo-image" src={Insta} alt="instagram" />
+              </a>
             </div>
           </div>
           <div className="my-shameless-promo-wrapper">
