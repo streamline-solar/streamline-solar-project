@@ -1,0 +1,79 @@
+@import "colors";
+
+.Footer {
+  background-color: #292828;
+}
+
+.inner-footer {
+  padding: 100px 50px;
+  flex-direction: column;
+}
+
+.my-shameless-promo {
+  color: $white2;
+  font-family: adobe-garamond-pro;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: $MediumGrey;
+    text-decoration: none;
+    font-family: adobe-garamond-pro, serif;
+    margin: 0 10px;
+  }
+}
+
+#shameless-promo-link {
+  color: $white;
+  text-decoration: none;
+}
+
+.promo-link-wrapper {
+  padding: 0px 5px;
+}
+
+.created-by-wrapper {
+  padding: 0px 10px;
+
+  h6 {
+    margin: 0;
+  }
+}
+
+.promo-content-wrapper {
+  padding: 20px;
+}
+
+.promo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.instagram-promo-wrapper {
+  margin: 20px;
+}
+
+.email-promo-wrapper {
+  margin: 20px;
+}
+
+.inner-promo-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.promo-image {
+  width: 100%;
+}

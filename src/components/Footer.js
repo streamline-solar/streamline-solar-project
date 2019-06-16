@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Insta from "./../images/svg-icons/instagram.svg";
-import Email from "./../images/svg-icons/envelope.svg";
+import Insta from "./../images/svg-icons/instagram-white.svg";
+import Email from "./../images/svg-icons/envelope-white.svg";
+import "./../styles/footer.scss";
 
 class Footer extends Component {
 
@@ -8,16 +9,31 @@ class Footer extends Component {
     return(
       <footer className="Footer">
         <div className="inner-footer FlexCenter">
-          <div className="promotional-content-wrapper">
-            <div className="promotional-content">
-              <a href="instagram.com" className="promo-image-wrapper">
-                <img className="promo-image" src={Insta} alt="instagram" />
-              </a>
+          <div className="promo-content-wrapper">
+            <div className="promo-content">
+
+              <div className="instagram-promo-wrapper">
+                <div className="inner-promo-wrapper">
+                  <a className="promo-image-wrapper" href="https://www.instagram.com/streamlinesolarstops/" target="_blank">
+                    <img className="promo-image" src={Insta} alt="instagram" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="email-promo-wrapper">
+                <div className="inner-promo-wrapper">
+                  <a className="promo-image-wrapper" href="mailto:streamline.solar.stops@gmail.com">
+                    <img className="promo-image" src={Email} alt="email icon" />
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
           <div className="my-shameless-promo-wrapper">
             <div className="my-shameless-promo">
-              <h6>Created By: Jesse Dahl</h6>
+              <h6>Created By: </h6>
+              <a href="https://www.jesse-dahl.com" target="_blank" >Jesse Dahl</a>
             </div>
           </div>
         </div>
