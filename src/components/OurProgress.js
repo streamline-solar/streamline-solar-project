@@ -57,13 +57,10 @@ class Progress extends Component {
             <section className="streamline-main-page">
               <div className="index-page-wrapper">
                 <div className="inner-index-wrapper">
-                  <div className="seperator-block">
-                    <hr className="seperator"></hr>
-                  </div>
 
                   <div className="inner-text-block">
                     <div className="top-inner-text-block JustSomePadding">
-                      <h2 className="LargeText">Stay up to date on the advancements of the Streamline Solar Stops project!</h2>
+                      <h2 className="LargeText MobileInnerTextTitle">Stay up to date on the advancements of the Streamline Solar Stops project!</h2>
                     </div>
                     <div className="bottom-inner-text-block JustSomePadding">
                       <p className="SmallText">Sign up for our newsletter to get updates sent directly to you! You can find the form at the end of this page.</p>

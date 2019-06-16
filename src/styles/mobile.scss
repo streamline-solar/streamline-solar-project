@@ -93,4 +93,16 @@
     font-family: adobe-garamond-pro, serif;
     line-height: 40px;
   }
+
+  /** Progress Page */
+
+  .main-events-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-inner-text-block {
+    line-height: 35px;
+  }
 }
