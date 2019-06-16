@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Insta from "./../images/svg-icons/instagram-white.svg";
 import Email from "./../images/svg-icons/envelope-white.svg";
+import "./../styles/mobile.scss";
 import "./../styles/footer.scss";
 
 class Footer extends Component {
