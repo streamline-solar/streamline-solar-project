@@ -3,55 +3,22 @@ import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/progress.scss";
 import Logo from "./../images/streamline-solar-logo.png";
+import Header from "./Header";
 import Footer from "./Footer";
 import UniversitySupport from "./../images/progress-support.jpeg";
 import StudentInvolvement from "./../images/progress-student.jpeg";
 import Sustainabilibash from "./../images/sustainabilibash.jpg";
 import ClimateConference from "./../images/climate-conference.png";
+import ProgressBackground from "../images/progress-home-image-effects.jpg";
 
 class Progress extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
-        <Fade>
-        <div className="progress-top-page-wrapper">
-          <div className="progress-top-page-background">
-            <header className="header-wrapper">
-              <div className="header-content FlexColCenter">
-                <div className="logo-wrapper">
-                  <a href="/" className="header-logo">
-                    <img id="actual-logo-image" src={Logo} alt="Streamline Logo" />
-                  </a>
-                </div>
-                <div className="navigation-wrapper">
-                  <nav className="header-nav">
-                    <div className="header-nav-content">
-                      <a href="/" className="header-nav-item">Home</a>
-                      <a href="/the-project" className="header-nav-item">The Project</a>
-                      <a href="/our-progress" className="header-nav-item">Our Progress</a>
-                      <a href="/our-partners" className="header-nav-item">Our Partners</a>
-                      <a href="/photos" className="header-nav-item">Photos</a>
-                      <a href="/contact-us" className="header-nav-item">Contact Us</a>
-                      <a href="/support-us" className="header-nav-item">Support Us</a>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </header>
-            <section id="streamline-vision">
-              <div className="vision-wrapper FlexRowCenter">
-                <div className="vision-content">
-                  <div className="vision-content-text">
-                    <h2 className="LargerText">
-                      <strong>Our Progress</strong>
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-        </Fade>
+        
+        <Header title="Our Progress"
+                background={ProgressBackground}
+        />
 
         <div className="main-body-wrapper">
           <main className="body-content">

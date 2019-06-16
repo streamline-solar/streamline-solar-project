@@ -7,15 +7,16 @@ class Header extends Component {
   constructor(props) {
     super(props);
 
-    this.hello = "placeholder";
-    
+    this.HeaderTitle = props.title;
+    this.BackgroundImg = props.background;
+
   }
 
   render() {
     return(
       <Fade>
-      <div className="support-top-page-wrapper">
-        <div className="support-top-page-background">
+      <div className="top-page-wrapper">
+        <div className="top-page-background" style={{backgroundImage: `url(${this.BackgroundImg})`}}>
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -43,7 +44,7 @@ class Header extends Component {
               <div className="vision-content">
                 <div className="vision-content-text">
                   <h2 className="LargerText">
-                    <strong>Support Us</strong>
+                    <strong>{this.HeaderTitle}</strong>
                   </h2>
                 </div>
               </div>
