@@ -152,4 +152,18 @@
   .w-100 {
     height: 400px !important;
   }
+
+  /** Contact Page */
+
+  .specific-contact-info {
+    flex-direction: column !important;
+  }
+
+  .contact-actual-info-wrapper {
+    align-items: end !important;
+  }
+
+  .contact-info-other-information {
+    text-align: left !important;
+  }
 }
