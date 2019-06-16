@@ -95,11 +95,6 @@ class Progress extends Component {
 
                   <div className="body-element-wrapper InlineBlock">
                     <div className="body-element-content FlexColCenter">
-                      <div className="image-wrapper">
-                        <div className="image-image">
-                          <img className="progress-body-image" src={StudentInvolvement} alt="random person" />
-                        </div>
-                      </div>
                       <div className="left-text-wrapper">
                         <div className="left-text-content">
                           <div className="left-text-title">
@@ -110,6 +105,11 @@ class Progress extends Component {
                              Thanks to extensive student outreach and cooperation between many of the departments on cmapus, we have been able to actively include several different Montana State Unviersity disciplines. This adds invaluable diversity which will increase the quality and outcome of the Streamline Solar Stops proejct.
                             </p>
                           </div>
+                        </div>
+                      </div>
+                      <div className="image-wrapper">
+                        <div className="image-image">
+                          <img className="progress-body-image" src={StudentInvolvement} alt="random person" />
                         </div>
                       </div>
                     </div>
@@ -149,11 +149,6 @@ class Progress extends Component {
                       </div>
 
                       <div className="main-events-content FlexColCenter">
-                        <div className="image-wrapper">
-                          <div className="image-image">
-                            <img className="progress-body-image" src={ClimateConference} alt="climate conference" />
-                          </div>
-                        </div>
                         <div className="left-text-wrapper">
                           <div className="left-text-content">
                             <div className="text-title">
@@ -167,6 +162,11 @@ class Progress extends Component {
                                 A huge thanks to all of the members who showed interest in our project and signed up for our newsletter! Check out our Instagram or our photos page to see how the event went.
                               </p>
                             </div>
+                          </div>
+                        </div>
+                        <div className="image-wrapper">
+                          <div className="image-image">
+                            <img className="progress-body-image" src={ClimateConference} alt="climate conference" />
                           </div>
                         </div>
                       </div>

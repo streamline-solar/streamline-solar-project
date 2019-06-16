@@ -80,6 +80,14 @@ class Support extends Component {
                         </div>
                       </div>
 
+                      <div className="support-button-wrapper">
+                        <div className="button-wrapper FlexRowCenter">
+                          <div className="support-button-content">
+                            <Link to="/contact-us" className="SupportButton ImageButton FlexCenter">Contact Us</Link>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div> 
 
@@ -102,39 +110,18 @@ class Support extends Component {
                         </div>
                       </div>
 
+                      <div className="news-button-wrapper">
+                        <div className="button-wrapper FlexRowCenter">
+                          <div className="support-button-content">
+                            <Link to="/our-progress" className="SupportButton ImageButton FlexCenter">Sign Up</Link>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div> 
 
                 </div>
-
-                <div className="buttons-wrapper">
-                  <div className="buttons-buttons">
-                  
-                    <div className="support-button-wrapper">
-                      <div className="button-wrapper FlexRowCenter">
-                        <div className="support-button-content">
-                          <Link to="/contact-us" className="SupportButton ImageButton FlexCenter">Contact Us</Link>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="button-block-seperator-wrap">
-                      <div className="button-block-seperator">
-                        <div className="block-inner-seperator"></div>
-                      </div>
-                    </div>
-
-                    <div className="news-button-wrapper">
-                      <div className="button-wrapper FlexRowCenter">
-                        <div className="support-button-content">
-                          <Link to="/our-progress" className="SupportButton ImageButton FlexCenter">Sign Up</Link>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
 
               </div>
             </section>
