@@ -1,7 +1,53 @@
 @import "colors";
 
 @media(max-width: 719px) {
-  .navigation-wrapper {
+
+  .main-body-wrapper {
+    padding: 90px 20px;
+  }
+  .header-nav-content {
     display: none !important;
+  }
+
+  #actual-logo-image {
+    width: 50% !important;
+  }
+
+  .header-wrapper {
+    background-color: $white;
+  }
+
+  .LargerText {
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+
+  .home-top-page-background {
+    height: -webkit-fill-available !important;
+  }
+
+  .home-link-content-wrapper {
+    padding: 10px 10px;
+  }
+
+  .QuickLinkImage {
+    width: 100%;
+    height: 350px;
+  }
+
+  .ImageTitle {
+    font-size: 24px;
+  }
+
+  .ImageBody {
+    font-size: 18px;
+  }
+
+  .button-wrapper {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .alche-logo-banner {
+    width: 100%;
   }
 }

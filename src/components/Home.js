@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/mobile.scss";
+import Drawer from 'react-motion-drawer';
 import Logo from "./../images/streamline-solar-logo.png";
 import ProjectImage from "./../images/home-project-image-effects.jpg";
 import ProgressImage from "./../images/home-progress-image-effects.jpg";
@@ -12,6 +13,14 @@ import AlChEBanner from "./../images/AIChEBanner.png";
 //import { Link } from 'react-router-dom';
 
 class Home extends Component {
+
+
+  handleClick() {
+    this.setState({
+        open: !this.state.open
+    });
+  }
+
   render() {
     return (
       <div className="main-page-wrapper">
@@ -24,6 +33,15 @@ class Home extends Component {
                   <a href="/" className="header-logo">
                     <img id="actual-logo-image" src={Logo} alt="Streamline Logo" />
                   </a>
+                </div>
+                <div className="navigation-mobile-wrapper">
+                <Drawer>
+                  <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Settings</li>
+                  </ul>
+                </Drawer>
                 </div>
                 <div className="navigation-wrapper">
                   <nav className="header-nav">
