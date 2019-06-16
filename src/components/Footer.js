@@ -14,7 +14,7 @@ class Footer extends Component {
 
               <div className="instagram-promo-wrapper">
                 <div className="inner-promo-wrapper">
-                  <a className="promo-image-wrapper" href="https://www.instagram.com/streamlinesolarstops/" target="_blank">
+                  <a className="promo-image-wrapper" href="https://www.instagram.com/streamlinesolarstops/" target="_blank" rel="noopener noreferrer">
                     <img className="promo-image" src={Insta} alt="instagram" />
                   </a>
                 </div>
@@ -33,7 +33,7 @@ class Footer extends Component {
           <div className="my-shameless-promo-wrapper">
             <div className="my-shameless-promo">
               <h6>Created By: </h6>
-              <a href="https://www.jesse-dahl.com" target="_blank" >Jesse Dahl</a>
+              <a href="https://www.jesse-dahl.com" target="_blank" rel="noopener noreferrer">Jesse Dahl</a>
             </div>
           </div>
         </div>
