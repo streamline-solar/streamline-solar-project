@@ -105,4 +105,28 @@
   .top-inner-text-block {
     line-height: 35px;
   }
+
+  /** Partners Pagr */
+
+  .partners-content {
+    padding: 20px 10px !important;
+  }
+
+  .partners-content-row {
+    flex-direction: column !important;
+    padding: 40px 10px !important;
+  }
+
+  .partners-image {
+    width: 100% !important;
+  }
+
+  .partners-info-wrapper {
+    padding: 5px !important;
+  }
+
+  .partner-sig {
+    text-align: left !important;
+    color: $DarkGrey !important;
+  }
 }
