@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import "./../styles/index.scss";
 import "./../styles/project.scss";
+import "./../styles/mobile.scss";
 import Logo from "./../images/streamline-solar-logo.png";
 import OurStory from "./../images/project-stop.jpeg";
 import OurStudents from "./../images/project-our-students.jpeg";
@@ -39,7 +40,7 @@ class Project extends Component {
               <div className="vision-wrapper FlexRowCenter">
                 <div className="vision-content">
                   <div className="vision-content-text">
-                    <h2 className="LargerText">
+                    <h2 className="LargeText LargeMobileText">
                       <strong>The Project</strong>
                     </h2>
                   </div>
@@ -60,8 +61,8 @@ class Project extends Component {
                 </div>
                 <div className="inner-text-block">
                   <div className="top-inner-text-block JustSomePadding">
-                    <h1 className="LargeText">Streamline Solar Stops</h1>
-                    <h2 className="LargeText">Collaboration is our mission. Sustainability is our goal.</h2>
+                    <h3 className="LargeText MobileInnerTextTitle">Streamline Solar Stops</h3>
+                    <h2 className="LargeText MobileInnerSubTextTitle">Collaboration is our mission. Sustainability is our goal.</h2>
                   </div>
                   <div className="bottom-inner-text-block JustSomePadding">
                     <p className="SmallText">

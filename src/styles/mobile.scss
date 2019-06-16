@@ -50,4 +50,47 @@
   .alche-logo-banner {
     width: 100%;
   }
+
+
+  /** Project Page SCSS */
+  
+  #streamline-vision {
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LargeMobileText {
+    font-family: adobe-garamond-pro, serif;
+    font-size: 40px;
+  }
+
+  .body-element-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-wrapper {
+    padding: 10px !important;
+  }
+
+  .MobileInnerTextTitle {
+    font-size: 20px !important;
+    font-weight: 600;
+    letter-spacing: 0.57px;
+    font-style: normal;
+    color: $DarkGrey;
+    font-family: proxima-nova;
+    padding: 10px;
+  }
+
+  .MobileInnerSubTextTitle {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-style: normal;
+    font-family: adobe-garamond-pro, serif;
+    line-height: 40px;
+  }
 }
