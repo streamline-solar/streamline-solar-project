@@ -1,7 +1,11 @@
 @import "colors";
 
 @media(min-width: 720px) {
-  .mobile-menu-nav {
+  .side-drawer {
+    display: none;
+  }
+
+  .mobile-hamburger-menu {
     display: none;
   }
 }

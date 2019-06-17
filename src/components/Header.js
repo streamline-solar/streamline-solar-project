@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Logo from "./../images/streamline-solar-logo.png";
-import MobileMenu from "./MobileMenu";
-import { slide as Menu } from 'react-burger-menu'
+//import MobileMenu from "./MobileMenu";
 import "./../styles/mobile.scss";
+import SideDrawer from './SideDrawer/SideDrawer';
+import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
 
 class Header extends Component {
+
+  drawerToggleClickHandler = () => {
+    
+  }
 
   constructor(props) {
     super(props);
@@ -31,7 +36,10 @@ class Header extends Component {
                 </a>
               </div>
               <div className="navigation-wrapper">
-                <MobileMenu />
+                <div className="mobile-hamburger-menu">
+                  <DrawerToggleButton />
+                </div>
+                <SideDrawer />
                 <nav className="header-nav">
                   <div className="header-nav-content">
 

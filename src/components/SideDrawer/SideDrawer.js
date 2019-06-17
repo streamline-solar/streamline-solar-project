@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
+import DrawerToggleButton from "./DrawerToggleButton";
+import "./SideDrawer.scss";
 
 const sideDrawer = props => (
-  <nav className="mobile-menu-nav">
-    <div>
-      <DrawerToggleButton />
-    </div>
+  <nav className="side-drawer">
     <div className="mobile-menu-wrapper">
       <ul className="mobile-menu-content">
         <li className="mobile-menu-item">
