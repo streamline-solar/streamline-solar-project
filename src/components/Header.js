@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Logo from "./../images/streamline-solar-logo.png";
+import MobileMenu from "./MobileMenu";
 import { slide as Menu } from 'react-burger-menu'
 import "./../styles/mobile.scss";
 
@@ -30,6 +31,7 @@ class Header extends Component {
                 </a>
               </div>
               <div className="navigation-wrapper">
+                <MobileMenu />
                 <nav className="header-nav">
                   <div className="header-nav-content">
 
