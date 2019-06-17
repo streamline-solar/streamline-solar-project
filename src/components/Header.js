@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Logo from "./../images/streamline-solar-logo.png";
+import { slide as Menu } from 'react-burger-menu'
+import "./../styles/mobile.scss";
 
 class Header extends Component {
 
@@ -18,6 +20,7 @@ class Header extends Component {
     return(
       <Fade>
       <div className="top-page-wrapper">
+      
         <div className="top-page-background" style={{backgroundImage: `url(${this.state.BackgroundImg})`}}>
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
@@ -29,6 +32,7 @@ class Header extends Component {
               <div className="navigation-wrapper">
                 <nav className="header-nav">
                   <div className="header-nav-content">
+
                     <a href="/" className="header-nav-item">Home</a>
                     <a href="/the-project" className="header-nav-item">The Project</a>
                     <a href="/our-progress" className="header-nav-item">Our Progress</a>
