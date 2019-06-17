@@ -7,8 +7,10 @@ class Header extends Component {
   constructor(props) {
     super(props);
 
-    this.HeaderTitle = props.title;
-    this.BackgroundImg = props.background;
+    this.state = {
+      HeaderTitle: props.title,
+      BackgroundImg: props.background,
+    };
 
   }
 
