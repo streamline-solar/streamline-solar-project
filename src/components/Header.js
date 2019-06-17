@@ -8,9 +8,15 @@ import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
 
 class Header extends Component {
 
+  state = {
+    sideDrawerOpen: false
+  };
+
   drawerToggleClickHandler = () => {
-    
-  }
+    this.setState((prevState) => {
+      return({sideDrawerOpen: !prevState.sideDrawerOpen})
+    });
+  };
 
   constructor(props) {
     super(props);
@@ -23,6 +29,11 @@ class Header extends Component {
   }
 
   render() {
+    let sideDrawer;
+
+    if(this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+    }
     return(
       <Fade>
       <div className="top-page-wrapper">
@@ -37,9 +48,9 @@ class Header extends Component {
               </div>
               <div className="navigation-wrapper">
                 <div className="mobile-hamburger-menu">
-                  <DrawerToggleButton />
+                  <DrawerToggleButton click={this.drawerToggleClickHandler}/>
                 </div>
-                <SideDrawer />
+                {sideDrawer}
                 <nav className="header-nav">
                   <div className="header-nav-content">
 
