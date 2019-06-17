@@ -18,7 +18,7 @@ class Header extends Component {
     return(
       <Fade>
       <div className="top-page-wrapper">
-        <div className="top-page-background" style={{backgroundImage: `url(${this.BackgroundImg})`}}>
+        <div className="top-page-background" style={{backgroundImage: `url(${this.state.BackgroundImg})`}}>
           <header className="header-wrapper">
             <div className="header-content FlexColCenter">
               <div className="logo-wrapper">
@@ -46,7 +46,7 @@ class Header extends Component {
               <div className="vision-content">
                 <div className="vision-content-text">
                   <h2 className="LargerText">
-                    <strong>{this.HeaderTitle}</strong>
+                    <strong>{this.state.HeaderTitle}</strong>
                   </h2>
                 </div>
               </div>
