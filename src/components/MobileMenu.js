@@ -2,10 +2,14 @@ import React from 'react';
 import "../styles/mobile.scss";
 import { Link } from "react-router-dom";
 
+import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
+
 const toolbar = props => (
   <div className="full-mobile-menu-wrapper">
     <nav className="mobile-menu-nav">
-      <div></div>
+      <div>
+        <DrawerToggleButton />
+      </div>
       <div className="mobile-menu-wrapper">
         <ul className="mobile-menu-content">
           <li className="mobile-menu-item">
