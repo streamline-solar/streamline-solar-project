@@ -19,6 +19,15 @@ const toolbar = props => (
         <li className="mobile-menu-item">
           <Link to="/our-partners" className="menu-item">Our Partners</Link>
         </li>
+        <li className="mobile-menu-item">
+          <Link to="/photos" className="menu-item">Photos</Link>
+        </li>
+        <li className="mobile-menu-item">
+          <Link to="/contact-us" className="menu-item">Contact Us</Link>
+        </li>
+        <li className="mobile-menu-item">
+          <Link to="/support-us" className="menu-item">Support Us</Link>
+        </li>
       </ul>
     </div>
   </nav>
