@@ -7,7 +7,7 @@ import UniversitySupport from "./../images/progress-support.jpeg";
 import StudentInvolvement from "./../images/progress-student.jpeg";
 import Sustainabilibash from "./../images/sustainabilibash.jpg";
 import ClimateConference from "./../images/climate-conference.png";
-import ProgressBackground from "../images/progress-home-image-effects.jpg";
+import ProgressBackground from "../images/progress-home-image-effects-min.jpg";
 
 class Progress extends Component {
   render() {

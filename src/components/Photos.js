@@ -5,7 +5,7 @@ import Header from "./Header";
 import "./../styles/index.scss";
 import "./../styles/photos.scss";
 import "./../styles/bootstrap.scss";
-import PhotoBackground from "../images/photos-home-effects.jpg";
+import PhotoBackground from "../images/photos-home-effects-min.jpg";
 
 
 class Photos extends Component {

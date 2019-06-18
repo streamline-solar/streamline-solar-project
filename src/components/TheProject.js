@@ -4,7 +4,7 @@ import "./../styles/project.scss";
 import "./../styles/mobile.scss";
 import OurStory from "./../images/project-stop.jpeg";
 import OurStudents from "./../images/project-our-students.jpeg";
-import ProjectBackground from "../images/project-home-image-effects.jpg";
+import ProjectBackground from "../images/project-home-image-effects-min.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 

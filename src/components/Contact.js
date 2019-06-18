@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "./../styles/index.scss";
 import "./../styles/contact.scss";
-import ContactBackground from "../images/contact-home-img-edited.jpg";
+import ContactBackground from "../images/contact-home-img-edited-min.jpg";
 
 class Contact extends Component {
 
