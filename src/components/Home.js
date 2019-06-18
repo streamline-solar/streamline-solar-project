@@ -95,7 +95,7 @@ class Home extends Component {
                   </div>
                   <div className="button-wrapper FlexRowCenter">
                     <div className="button-content">
-                      <a href="/" className="Button FlexCenter">Support Us</a>
+                      <Link to="/support-us" className="Button FlexCenter">Support Us</Link>
                     </div>
                   </div>
                 </div>
