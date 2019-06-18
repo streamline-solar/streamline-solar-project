@@ -164,7 +164,7 @@ class Progress extends Component {
               <section className="newsletter-form-wrapper">
                 <div className="newsletter-form-content">
                   <div className="newsletter-inner-form">
-                    <form className="actual-form">
+                    {/*<form className="actual-form">
                       <div className="inner-form-content">
                         <fieldset className="form-fieldset">
                           <div className="name-title"></div>
@@ -184,7 +184,9 @@ class Progress extends Component {
                         </fieldset>
                       </div>
                     </form>
-                  </div>
+                    */}
+                    <strong>In Construction. If you are seeing this right now, then you are fast ;). This portion will be completed within a few days</strong>
+                  </div> 
                 </div>
               </section>
             </div>
