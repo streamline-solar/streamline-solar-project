@@ -9,6 +9,8 @@ import PartnerImage from "./../images/home-partners-image-effects.jpg";
 import ContactImage from "./../images/home-contact-us-image-effects.jpg";
 import PhotosImage from "./../images/home-images-image-effects.jpg";
 import AlChEBanner from "./../images/AIChEBanner.png";
+import SideDrawer from './SideDrawer/SideDrawer';
+import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
 import Footer from "./Footer";
 
 class Home extends Component {
@@ -18,6 +20,30 @@ class Home extends Component {
     this.setState({
         open: !this.state.open
     });
+  }
+
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return({sideDrawerOpen: !prevState.sideDrawerOpen})
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      HeaderTitle: props.title,
+      BackgroundImg: props.background,
+    };
+
   }
 
   render() {
@@ -37,6 +63,10 @@ class Home extends Component {
 
                 </div>
                 <div className="navigation-wrapper">
+                  <div className="mobile-hamburger-menu">
+                    <DrawerToggleButton click={this.drawerToggleClickHandler}/>
+                  </div>
+                  <SideDrawer show={this.state.sideDrawerOpen}/>
                   <nav className="header-nav">
                     <div className="header-nav-content">
                       <a href="/" className="header-nav-item">Home</a>
