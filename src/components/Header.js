@@ -18,6 +18,10 @@ class Header extends Component {
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
   constructor(props) {
     super(props);
 
@@ -29,10 +33,11 @@ class Header extends Component {
   }
 
   render() {
-    let sideDrawer;
+    //let sideDrawer;
+    //let backDrop;
 
     if(this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
+      //sideDrawer = <SideDrawer />;
     }
     return(
       <Fade>
@@ -50,7 +55,7 @@ class Header extends Component {
                 <div className="mobile-hamburger-menu">
                   <DrawerToggleButton click={this.drawerToggleClickHandler}/>
                 </div>
-                {sideDrawer}
+                <SideDrawer show={this.state.sideDrawerOpen}/>
                 <nav className="header-nav">
                   <div className="header-nav-content">
 
