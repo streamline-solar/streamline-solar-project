@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import DrawerToggleButton from "./DrawerToggleButton";
 import "./SideDrawer.scss";
 
 const sideDrawer = props => {

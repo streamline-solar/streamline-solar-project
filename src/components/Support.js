@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import "./../styles/index.scss";
 import "./../styles/support.scss";
-import SupportBackground from "../images/support-home-edited.jpg";
+import SupportBackground from "../images/support-home-edited-min.jpg";
 
 class Support extends Component {
   render() {

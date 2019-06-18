@@ -34,6 +34,11 @@
 
   .home-top-page-background {
     height: -webkit-fill-available !important;
+    background-attachment: scroll !important;
+  }
+
+  .top-page-background {
+    background-attachment: scroll !important;
   }
 
   .home-link-content-wrapper {
