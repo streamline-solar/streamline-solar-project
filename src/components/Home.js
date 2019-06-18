@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import { Link } from "react-router-dom";
 import "./../styles/index.scss";
 import "./../styles/mobile.scss";
 import Logo from "./../images/streamline-solar-logo.png";
@@ -69,13 +70,13 @@ class Home extends Component {
                   <SideDrawer show={this.state.sideDrawerOpen}/>
                   <nav className="header-nav">
                     <div className="header-nav-content">
-                      <a href="/" className="header-nav-item">Home</a>
-                      <a href="/the-project" className="header-nav-item">The Project</a>
-                      <a href="/our-progress" className="header-nav-item">Our Progress</a>
-                      <a href="/our-partners" className="header-nav-item">Our Partners</a>
-                      <a href="/photos" className="header-nav-item">Photos</a>
-                      <a href="/contact-us" className="header-nav-item">Contact Us</a>
-                      <a href="/support-us" className="header-nav-item">Support Us</a>
+                      <Link to="/" className="header-nav-item">Home</Link>
+                      <Link to="/the-project" className="header-nav-item">The Project</Link>
+                      <Link to="/our-progress" className="header-nav-item">Our Progress</Link>
+                      <Link to="/our-partners" className="header-nav-item">Our Partners</Link>
+                      <Link to="/photos" className="header-nav-item">Photos</Link>
+                      <Link to="/contact-us" className="header-nav-item">Contact Us</Link>
+                      <Link to="/support-us" className="header-nav-item">Support Us</Link>
                     </div>
                   </nav>
                 </div>
