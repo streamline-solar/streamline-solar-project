@@ -5,6 +5,7 @@ import "./../styles/index.scss";
 import "./../styles/contact.scss";
 import ContactBackground from "../images/contact-home-img-edited-min.jpg";
 
+
 class Contact extends Component {
 
   render() {
