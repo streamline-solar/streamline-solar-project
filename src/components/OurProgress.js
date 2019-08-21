@@ -9,6 +9,59 @@ import Sustainabilibash from "./../images/sustainabilibash.jpg";
 import ClimateConference from "./../images/climate-conference.png";
 import ProgressBackground from "../images/progress-home-image-effects-min.jpg";
 
+const BodyElement = (props) => {
+  return (
+    <div className="body-element-wrapper InlineBlock">
+      <div className="body-element-content FlexColCenter">
+        <div className="left-text-wrapper">
+          <div className="left-text-content">
+            <div className="left-text-title">
+              <h1>{props.title}</h1>
+            </div>
+            <div className="left-text-body">
+              <p className="SmallText">
+                {props.body}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="image-wrapper">
+          <div className="image-image">
+            <img className="progress-body-image" src={props.image} alt="mountains?" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const Events = (props) => {
+  return(
+    <div className="main-events-content FlexColCenter">
+      <div className="left-text-wrapper">
+        <div className="left-text-content">
+          <div className="text-title">
+            <h1>{props.title}</h1>
+          </div>
+          <div className="left-text-body">
+            <p className="SmallText">
+              {props.body1}
+            </p>
+            <p className="SmallText">
+              {props.body2}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="image-wrapper">
+        <div className="image-image">
+          <img className="progress-body-image" src={props.image} alt="msu campus" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 class Progress extends Component {
   render() {
     return (
@@ -37,49 +90,10 @@ class Progress extends Component {
                     <hr className="seperator"></hr>
                   </div>
 
-                  <div className="body-element-wrapper InlineBlock">
-                    <div className="body-element-content FlexColCenter">
-                      <div className="left-text-wrapper">
-                        <div className="left-text-content">
-                          <div className="left-text-title">
-                            <h1>University Support</h1>
-                          </div>
-                          <div className="left-text-body">
-                            <p className="SmallText">
-                              We have received support and are seeking counsel from a number of department heads and faculty members around campus. Montana State University is aware and excited about the Streamline Solar Stops project!
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="image-wrapper">
-                        <div className="image-image">
-                          <img className="progress-body-image" src={UniversitySupport} alt="mountains?" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div className="body-element-wrapper InlineBlock">
-                    <div className="body-element-content FlexColCenter">
-                      <div className="left-text-wrapper">
-                        <div className="left-text-content">
-                          <div className="left-text-title">
-                            <h1>Student Involvement</h1>
-                          </div>
-                          <div className="left-text-body">
-                            <p className="SmallText">
-                             Thanks to extensive student outreach and cooperation between many of the departments on cmapus, we have been able to actively include several different Montana State Unviersity disciplines. This adds invaluable diversity which will increase the quality and outcome of the Streamline Solar Stops proejct.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="image-wrapper">
-                        <div className="image-image">
-                          <img className="progress-body-image" src={StudentInvolvement} alt="random person" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <BodyElement title='University Support' body='We have received support and are seeking counsel from a number of department heads and faculty members around campus. Montana State University is aware and excited about the Streamline Solar Stops project!' image={UniversitySupport} />
+
+                  <BodyElement title='Student Involvement' body='Thanks to extensive student outreach and cooperation between many of the departments on campus, we have been able to actively include several different Montana State Unviersity disciplines. This adds invaluable diversity which will increase the quality and outcome of the Streamline Solar Stops project.' image={StudentInvolvement} />
 
                   <div className="seperator-block">
                     <hr className="seperator"></hr>
@@ -91,51 +105,20 @@ class Progress extends Component {
                         <h1 className="events-header">Events</h1>
                       </div>
 
-                      <div className="main-events-content FlexColCenter">
-                        <div className="left-text-wrapper">
-                          <div className="left-text-content">
-                            <div className="text-title">
-                              <h1>Sustainabilibash: 04/18/19</h1>
-                            </div>
-                            <div className="left-text-body">
-                              <p className="SmallText">
-                                The Streamline Solar Stops joined other Montana State University organizations in a celebration of Earth Day.
-                              </p>
-                              <p className="SmallText">
-                                A huge thanks to everyone who stopped by and supported us! It was an awesome opportunity to meet more students and people who gained interest in the project. Check out our Instagram or our photos page to see how the event went!
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="image-wrapper">
-                          <div className="image-image">
-                            <img className="progress-body-image" src={Sustainabilibash} alt="msu campus" />
-                          </div>
-                        </div>
-                      </div>
+                      <Events 
+                        title='Sustainabilibash: 04/18/19' 
+                        body1='The Streamline Solar Stops joined other Montana State University organizations in a celebration of Earth Day.'
+                        body2='A huge thanks to everyone who stopped by and supported us! It was an awesome opportunity to meet more students and people who gained interest in the project. Check out our Instagram or our photos page to see how the event went!'
+                        image={Sustainabilibash}
+                      />
 
-                      <div className="main-events-content FlexColCenter">
-                        <div className="left-text-wrapper">
-                          <div className="left-text-content">
-                            <div className="text-title">
-                              <h1>Climate Conference</h1>
-                            </div>
-                            <div className="left-text-body">
-                              <p className="SmallText">
-                                The Climate Conference, hosted by the MSU chapter of AlChE, is a yearly, open event designed to unite the Montana community in the fight against our changing climate. The Streamline Solar Stops team joined this year's event to share our project.
-                              </p>
-                              <p className="SmallText">
-                                A huge thanks to all of the members who showed interest in our project and signed up for our newsletter! Check out our Instagram or our photos page to see how the event went.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="image-wrapper">
-                          <div className="image-image">
-                            <img className="progress-body-image" src={ClimateConference} alt="climate conference" />
-                          </div>
-                        </div>
-                      </div>
+                      <Events
+                        title='Climate Conference'
+                        body1='The Climate Conference, hosted by the MSU chapter of AlChE, is a yearly, open event designed to unite the Montana community in the fight against our changing climate. The Streamline Solar Stops team joined this years event to share our project.'
+                        body2='A huge thanks to all of the members who showed interest in our project and signed up for our newsletter! Check out our Instagram or our photos page to see how the event went.'
+                        image={ClimateConference}
+                      />
+
                     </div>
                     
                   </section>

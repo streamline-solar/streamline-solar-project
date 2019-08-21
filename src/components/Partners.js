@@ -9,6 +9,26 @@ import StreamlineLogo from "./../images/streamline-logo.png";
 import HRDCLogo from "./../images/HRDC-logo.jpg";
 import PartnerBackground from "../images/partners-home-image-effects.jpg";
 
+const PartnerInfo = (props) => {
+  return(
+    <div className="partners-content-row">
+      <div className="partner-image-wrapper">
+        <div className="partners-image-content">
+          <img className="partners-image" src={props.image} alt="AlChE Banner"></img>
+        </div>
+      </div>
+      <div className="partners-info-wrapper">
+        <div className="partners-info-content">
+          <p>
+            {props.body}
+          </p>
+          <p className="partner-sig">{props.sig}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 class Partners extends Component {
 
   render() {
@@ -47,69 +67,30 @@ class Partners extends Component {
             <div className="partners-content">
               <div className="partners-content-column">
 
-                <div className="partners-content-row">
-                  <div className="partner-image-wrapper">
-                    <div className="partners-image-content">
-                      <img className="partners-image" src={AlChEBanner} alt="AlChE Banner"></img>
-                    </div>
-                  </div>
-                  <div className="partners-info-wrapper">
-                    <div className="partners-info-content">
-                      <p>
-                        “The American Institute of Chemical Engineers is a world wide professional organization that facilitates the sharing of research, student competitions, varied conferences, global networking, and other learning opportunities.”
-                      </p>
-                      <p className="partner-sig">-AlChE</p>
-                    </div>
-                  </div>
-                </div>
+                <PartnerInfo 
+                  image={AlChEBanner} 
+                  body='The American Institute of Chemical Engineers is a world wide professional organization that facilitates the sharing of research, student competitions, varied conferences, global networking, and other learning opportunities.' 
+                  sig='ALCHe' 
+                />
 
-                <div className="partners-content-row">
-                  <div className="partner-image-wrapper">
-                    <div className="partners-image-content">
-                      <img className="partners-image" src={MSULogo} alt="MSU Logo"></img>
-                    </div>
-                  </div>
-                  <div className="partners-info-wrapper">
-                    <div className="partners-info-content">
-                      <p>
-                        “Montana State University is as remarkable as its setting. Created as a land-grant institution, it is a welcoming, adventurous community of students, faculty and staff distinguished by its commitment to address the world's greatest challenges. The university energizes individuals to discover and pursue their aspirations.”
-                      </p>
-                      <p className="partner-sig">-Montana State University</p>
-                    </div>
-                  </div>
-                </div>
+                <PartnerInfo
+                  image={MSULogo}
+                  body='Montana State University is as remarkable as its setting. Created as a land-grant institution, it is a welcoming, adventurous community of students, faculty and staff distinguished by its commitment to address the worlds greatest challenges. The university energizes individuals to discover and pursue their aspirations.'
+                  sig='-Montana State University'
+                />
 
-                <div className="partners-content-row">
-                  <div className="partner-image-wrapper">
-                    <div className="partners-image-content">
-                      <img className="partners-image" src={StreamlineLogo} alt="Streamline Logo"></img>
-                    </div>
-                  </div>
-                  <div className="partners-info-wrapper">
-                    <div className="partners-info-content">
-                      <p>
-                      “Streamline offers fare-free service throughout the Bozeman area to fulfill everyone’s transportation needs. Our routes provide service to and from Bozeman, Belgrade, Four Corners, Livingston and seasonal routes to Bridger Bowl.”
-                      </p>
-                      <p className="partner-sig">-Streamline</p>
-                    </div>
-                  </div>
-                </div>
+                <PartnerInfo
+                  image={StreamlineLogo}
+                  body='Streamline offers fare-free service throughout the Bozeman area to fulfill everyone’s transportation needs. Our routes provide service to and from Bozeman, Belgrade, Four Corners, Livingston and seasonal routes to Bridger Bowl.'
+                  sig='-Streamline'
+                />
 
-                <div className="partners-content-row">
-                  <div className="partner-image-wrapper">
-                    <div className="partners-image-content">
-                      <img className="partners-image" src={HRDCLogo} alt="HRDC Logo"></img>
-                    </div>
-                  </div>
-                  <div className="partners-info-wrapper">
-                    <div className="partners-info-content">
-                      <p>
-                        “HRDC is a 501(c)3 non-profit Community Action Agency dedicated to building a better community through innovation and leadership. We provide programs and services in the areas of Housing, Food & Nutrition, Child & Youth Development, Senior Empowerment, Community Transportation, Home Heating–Energy–Safety, and Community Development.”
-                      </p>
-                      <p className="partner-sig">-HRDC</p>
-                    </div>
-                  </div>
-                </div>
+                <PartnerInfo
+                  image={HRDCLogo}
+                  body='HRDC is a 501(c)3 non-profit Community Action Agency dedicated to building a better community through innovation and leadership. We provide programs and services in the areas of Housing, Food & Nutrition, Child & Youth Development, Senior Empowerment, Community Transportation, Home Heating–Energy–Safety, and Community Development.'
+                  sig='-HRDC'
+                />
+
 
               </div>
             </div>
