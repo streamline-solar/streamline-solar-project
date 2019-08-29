@@ -167,7 +167,7 @@ class Progress extends Component {
                       </div>
                     </form>
                     */}
-                    <strong>In Construction. If you are seeing this right now, then you are fast ;). This portion will be completed soon</strong>
+                    <strong>In Construction. If you are seeing this right now, then you are here a little early. This portion will be completed soon</strong>
                   </div>
                 </div>
               </section>
