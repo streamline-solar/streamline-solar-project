@@ -36,7 +36,7 @@ const BodyElement = (props) => {
 }
 
 const Events = (props) => {
-  return(
+  return (
     <div className="main-events-content FlexColCenter">
       <div className="left-text-wrapper">
         <div className="left-text-content">
@@ -66,9 +66,8 @@ class Progress extends Component {
   render() {
     return (
       <div className="main-page-wrapper">
-        
         <Header title="Our Progress"
-                background={ProgressBackground}
+          background={ProgressBackground}
         />
 
         <div className="main-body-wrapper">
@@ -105,8 +104,8 @@ class Progress extends Component {
                         <h1 className="events-header">Events</h1>
                       </div>
 
-                      <Events 
-                        title='Sustainabilibash: 04/18/19' 
+                      <Events
+                        title='Sustainabilibash: 04/18/19'
                         body1='The Streamline Solar Stops joined other Montana State University organizations in a celebration of Earth Day.'
                         body2='A huge thanks to everyone who stopped by and supported us! It was an awesome opportunity to meet more students and people who gained interest in the project. Check out our Instagram or our photos page to see how the event went!'
                         image={Sustainabilibash}
@@ -120,14 +119,14 @@ class Progress extends Component {
                       />
 
                     </div>
-                    
+
                   </section>
 
                 </div>
               </div>
             </section>
 
-          
+
             <div className="seperator-block">
               <hr className="seperator"></hr>
             </div>
@@ -168,8 +167,8 @@ class Progress extends Component {
                       </div>
                     </form>
                     */}
-                    <strong>In Construction. If you are seeing this right now, then you are fast ;). This portion will be completed within a few days</strong>
-                  </div> 
+                    <strong>In Construction. If you are seeing this right now, then you are fast ;). This portion will be completed soon</strong>
+                  </div>
                 </div>
               </section>
             </div>
