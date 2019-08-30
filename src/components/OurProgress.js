@@ -146,27 +146,7 @@ class Progress extends Component {
               <section className="newsletter-form-wrapper">
                 <div className="newsletter-form-content">
                   <div className="newsletter-inner-form">
-                    {/*<form className="actual-form">
-                      <div className="inner-form-content">
-                        <fieldset className="form-fieldset">
-                          <div className="name-title"></div>
-                          <legend>Name</legend>
-                          <div className="field-first-name">
-                            <label className="caption">
-                              <input className="field-element" name="fname" type="text" spellcheck="false" maxlength="30" data-title="First" />
-                              First Name
-                            </label>
-                          </div>
-                          <div className="field-last-name">
-                            <label className="caption">
-                              <input className="field-element" name="lname" type="text" spellcheck="false" maxlength="30" data-title="Last" />
-                              Last Name
-                            </label>
-                          </div>
-                        </fieldset>
-                      </div>
-                    </form>
-                    */}
+
                     <strong>In Construction. If you are seeing this right now, then you are here a little early. This portion will be completed soon</strong>
                   </div>
                 </div>
