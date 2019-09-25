@@ -90,9 +90,17 @@ class Progress extends Component {
                   </div>
 
 
-                  <BodyElement title='University Support' body='We have received support and are seeking counsel from a number of department heads and faculty members around campus. Montana State University is aware and excited about the Streamline Solar Stops project!' image={UniversitySupport} />
+                  <BodyElement
+                    title='University Support'
+                    body='We have received support and are seeking counsel from a number of department heads and faculty members around campus. Montana State University is aware and excited about the Streamline Solar Stops project!'
+                    image={UniversitySupport}
+                  />
 
-                  <BodyElement title='Student Involvement' body='Thanks to extensive student outreach and cooperation between many of the departments on campus, we have been able to actively include several different Montana State Unviersity disciplines. This adds invaluable diversity which will increase the quality and outcome of the Streamline Solar Stops project.' image={StudentInvolvement} />
+                  <BodyElement
+                    title='Student Involvement'
+                    body='Thanks to extensive student outreach and cooperation between many of the departments on campus, we have been able to actively include several different Montana State Unviersity disciplines. This adds invaluable diversity which will increase the quality and outcome of the Streamline Solar Stops project.'
+                    image={StudentInvolvement}
+                  />
 
                   <div className="seperator-block">
                     <hr className="seperator"></hr>
